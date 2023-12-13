@@ -1,0 +1,185 @@
+{
+  "stack": {
+    "url": "backend",
+    "name": {
+      "en": "Java Backend",
+      "ru": "Java Backend"
+    },
+    "desc": {
+      "en": "Java Backend Development",
+      "ru": "Разработка бэкенда на Java"
+    },
+    "categories": [
+      {
+        "name": {
+          "en": "Java",
+          "ru": "Java"
+        },
+        "desc": {
+          "en": "Object-oriented programming language",
+          "ru": "Объектно-ориентированный язык программирования"
+        },
+        "skills": [
+          {
+            "name": {
+              "en": "Spring Framework",
+              "ru": "Spring Framework"
+            },
+            "desc": {
+              "en": "Building scalable and robust Java applications.",
+              "ru": "Построение масштабируемых и надежных Java-приложений."
+            },
+            "details": ["Spring Boot", "Spring MVC", "Spring Data"]
+          },
+          {
+            "name": {
+              "en": "RESTful API Development",
+              "ru": "Разработка RESTful API"
+            },
+            "desc": {
+              "en": "Creating APIs that follow REST architectural principles.",
+              "ru": "Создание API, следующих принципам архитектуры REST."
+            },
+            "details": ["Endpoints", "HTTP methods", "JSON"]
+          },
+          {
+            "name": {
+              "en": "Database Management",
+              "ru": "Управление базами данных"
+            },
+            "desc": {
+              "en": "Working with relational databases and ORM frameworks.",
+              "ru": "Работа с реляционными базами данных и ORM-фреймворками."
+            },
+            "details": ["SQL", "Hibernate", "JPA"]
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Server-side Development",
+          "ru": "Серверная разработка"
+        },
+        "desc": {
+          "en": "Building the server-side logic for applications.",
+          "ru": "Построение серверной логики для приложений."
+        },
+        "skills": [
+          {
+            "name": {
+              "en": "Concurrency",
+              "ru": "Конкурентность"
+            },
+            "desc": {
+              "en": "Handling multiple tasks simultaneously in a scalable manner.",
+              "ru": "Обработка нескольких задач одновременно масштабируемым способом."
+            },
+            "details": ["Multithreading", "Executor framework"]
+          },
+          {
+            "name": {
+              "en": "Security",
+              "ru": "Безопасность"
+            },
+            "desc": {
+              "en": "Implementing security measures to protect applications.",
+              "ru": "Внедрение мер безопасности для защиты приложений."
+            },
+            "details": ["Authentication", "Authorization", "Encryption"]
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Microservices",
+          "ru": "Микросервисы"
+        },
+        "desc": {
+          "en": "Building modular and scalable microservices architectures.",
+          "ru": "Построение модульных и масштабируемых архитектур микросервисов."
+        },
+        "skills": [
+          {
+            "name": {
+              "en": "Service Discovery",
+              "ru": "Обнаружение сервисов"
+            },
+            "desc": {
+              "en": "Automatically locating and registering services in a network.",
+              "ru": "Автоматическое обнаружение и регистрация сервисов в сети."
+            },
+            "details": ["Eureka", "Consul"]
+          },
+          {
+            "name": {
+              "en": "Containerization",
+              "ru": "Контейнеризация"
+            },
+            "desc": {
+              "en": "Packaging applications and dependencies into containers.",
+              "ru": "Упаковка приложений и зависимостей в контейнеры."
+            },
+            "details": ["Docker", "Kubernetes"]
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Version Control Systems",
+          "ru": "Системы контроля версий"
+        },
+        "desc": {
+          "en": "GIT",
+          "ru": "GIT"
+        },
+        "skills": [
+          {
+            "name": {
+              "en": "Advanced Operations",
+              "ru": "Продвинутые операции"
+            },
+            "desc": {
+              "en": "Branch merging, rebasing, resolving conflicts.",
+              "ru": "Слияние веток, ребейзинг, разрешение конфликтов."
+            },
+            "details": []
+          },
+          {
+            "name": {
+              "en": "GitFlow Workflow",
+              "ru": "Рабочий процесс GitFlow"
+            },
+            "desc": {
+              "en": "A branching model for defining a collaborative Git workflow.",
+              "ru": "Модель ветвления для определения совместного рабочего процесса с использованием Git."
+            },
+            "details": []
+          }
+        ]
+      },
+      {
+        "name": {
+          "en": "Build Tools",
+          "ru": "Инструменты сборки"
+        },
+        "desc": {
+          "en": "Maven, Gradle",
+          "ru": "Maven, Gradle"
+        },
+        "skills": [
+          {
+            "name": {
+              "en": "Build Automation",
+              "ru": "Автоматизация сборки"
+            },
+            "desc": {
+              "en": "Automating the process of building and packaging software.",
+              "ru": "Автоматизация процесса сборки и упаковки программного обеспечения."
+            },
+            "details": []
+          }
+        ]
+      }
+    ]
+  }
+}
