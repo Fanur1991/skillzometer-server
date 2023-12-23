@@ -1,15 +1,39 @@
-image: docker:latest
-
 stages:
-  - build
   - test
+  - build
+  - deploy
 
-build_job:
-  stage: build
-  script:
-    - echo "Building the application."
+variables:
+  DOCKER_DRIVER: overlay2
 
-test_job:
+before_script:
+  - echo "Starting CI/CD Pipeline for the Node.js project..."
+
+test:
   stage: test
+  image: node:16
   script:
-    - echo "Running tests."
+    - npm install
+    - npm run test
+  only:
+    - master
+
+build:
+  stage: build
+  image: docker:19.03.12
+  services:
+    - docker:19.03.12-dind
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG .
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  image: bitnami/kubectl
+  script:
+    - kubectl apply -f deployment.yaml
+  only:
+    - master
