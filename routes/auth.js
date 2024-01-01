@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { check } from 'express-validator';
 import { register, login, getMe } from '../controllers/auth.js';
 import { checkAuth } from '../utils/checkAuth.js';
+import { registerValidation, loginValidation } from '../validations/auth.js';
 
 const router = new Router();
 
@@ -9,10 +9,11 @@ const router = new Router();
 // http://localhost:3002/api/auth/register
 router.post(
   '/register',
-  [
-    check('email', 'Некорректный email').isEmail(),
-    check('password', 'Некорректный пароль').isLength({ min: 6 }),
-  ],
+  // [
+  //   check('email', 'Некорректный email').isEmail(),
+  //   check('password', 'Некорректный пароль').isLength({ min: 6 }),
+  // ],
+  registerValidation,
   register
 );
 
@@ -20,10 +21,11 @@ router.post(
 // http://localhost:3002/api/auth/login
 router.post(
   '/login',
-  [
-    check('email', 'Некорректный email').isEmail(),
-    check('password', 'Некорректный пароль').exists(),
-  ],
+  // [
+  //   check('email', 'Некорректный email').isEmail(),
+  //   check('password', 'Некорректный пароль').exists(),
+  // ],
+  loginValidation,
   login
 );
 

@@ -7,10 +7,16 @@ const UserSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    password: {
+    passwordHash: {
       type: String,
       required: true,
     },
+    firstname: String,
+    surname: String,
+    githubUrl: String,
+    linkedinUrl: String,
+    websiteUrl: String,
+    avatarUrl: String,
     stacks: [
       {
         type: mongoose.Schema.Types.ObjectId,

@@ -7,16 +7,16 @@ export const checkAuth = (req, res, next) => {
     try {
       const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-      req.userId = decoded.id;
+      req.userId = decoded._id;
 
       next();
     } catch (error) {
-      return res.json({
+      return res.status(403).json({
         message: 'Нет доступа',
       });
     }
   } else {
-    return res.json({
+    return res.status(403).json({
       message: 'Нет доступа',
     });
   }
