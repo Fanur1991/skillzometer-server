@@ -11,3 +11,9 @@ export const userValidation = [
   body('linkedinUrl', 'Ваша ссылка не является URL адресом').optional().isURL(),
   body('websiteUrl', 'Ваша ссылка не является URL адресом').optional().isURL(),
 ];
+
+export const passwordValidation = [
+  body('newPassword', 'Пароль должен содержать минимум 5 символов').isLength({
+    min: 5,
+  }),
+];

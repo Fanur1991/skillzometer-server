@@ -1,9 +1,4 @@
 import User from '../models/User.js';
-// export const uploadAvatar = (req, res) => {
-//   res.json({
-//     url: `uploads/${req.file.originalname}`,
-//   });
-// };
 
 export const uploadAvatar = async (req, res) => {
   try {
@@ -13,11 +8,6 @@ export const uploadAvatar = async (req, res) => {
     const updatedUser = await User.findByIdAndUpdate(
       userId,
       {
-        // firstname,
-        // surname,
-        // githubUrl,
-        // linkedinUrl,
-        // websiteUrl,
         avatarUrl: imageUrl,
       },
       { new: true }
@@ -35,9 +25,3 @@ export const uploadAvatar = async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 };
-
-// let imageUrl;
-
-// if (req.file && req.file.filename) {
-//   imageUrl = `uploads/${req.file.filename}`;
-// }

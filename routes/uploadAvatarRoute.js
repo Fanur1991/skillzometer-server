@@ -19,6 +19,5 @@ const router = new Router();
 // Uploading avatar
 // http://localhost:3002/api/auth/upload
 router.post('/upload', checkAuth, upload.single('avatarUrl'), uploadAvatar);
-// router.post('/upload', upload.single('avatarUrl'), uploadAvatar);
 
 export default router;

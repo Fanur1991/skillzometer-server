@@ -2,7 +2,7 @@ import { body } from 'express-validator';
 
 export const registerValidation = [
   body('email', 'Неверный формат почты').isEmail(),
-  body('password', 'Пароль должен состоять минимум из 5 символов').isLength({
+  body('password', 'Пароль должен содержать минимум 5 символов').isLength({
     min: 5,
   }),
 ];
