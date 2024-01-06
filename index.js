@@ -2,23 +2,21 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import authRoute from './routes/auth.js';
-import stacksRoute from './routes/stacks.js';
-import categoriesRoute from './routes/categories.js';
-import skillsRoute from './routes/skills.js';
-import loadDataRoute from './routes/loadData.js';
+import authRoute from './routes/authRoute.js';
+import stacksRoute from './routes/stacksRoute.js';
+import loadDataRoute from './routes/loadDataRoute.js';
 import userRoute from './routes/userRoute.js';
-import uploadAvatarRoute from './routes/uploadAvatarRoute.js';
-import deleteAvatarRoute from './routes/deleteAvatarRoute.js';
+import userAvatarRoute from './routes/userAvatarRoute.js';
+import projectsRoute from './routes/projectsRoute.js';
 
 const app = express();
 dotenv.config();
 
 // Constants
-const PORT = process.env.PORT || 3001;
-const DB_USER = process.env.DB_USER;
-const DB_PASSWORD = process.env.DB_PASSWORD;
-const DB_NAME = process.env.DB_NAME;
+export const PORT = process.env.PORT || 3001;
+export const DB_USER = process.env.DB_USER;
+export const DB_PASSWORD = process.env.DB_PASSWORD;
+export const DB_NAME = process.env.DB_NAME;
 
 // Middleware
 app.use(cors());
@@ -29,11 +27,9 @@ app.use('/uploads', express.static('uploads'));
 // http://localhost:3002/api/
 app.use('/api/auth', authRoute);
 app.use('/api/auth/user', userRoute);
-app.use('/api/auth', uploadAvatarRoute);
-app.use('/api/auth', deleteAvatarRoute);
-app.use('/api/stacks', stacksRoute);
-app.use('/api/categories', categoriesRoute);
-app.use('/api/skills', skillsRoute);
+app.use('/api/auth', userAvatarRoute);
+app.use('/api/auth/projects', projectsRoute);
+app.use('/api', stacksRoute);
 app.use('/api/load', loadDataRoute);
 
 async function start() {

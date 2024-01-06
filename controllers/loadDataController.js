@@ -1,6 +1,6 @@
 import saveStack from '../utils/saveStack.js';
 
-// Endpoint для загрузки данных
+// Endpoint для загрузки данных в БД
 export const loadData = async (req, res) => {
   try {
     const body = req.body;

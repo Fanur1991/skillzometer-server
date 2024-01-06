@@ -1,5 +1,6 @@
 import { validationResult } from 'express-validator';
 import bcrypt from 'bcrypt';
+import fs from 'fs';
 import User from '../models/User.js';
 
 export const updateProfile = async (req, res) => {
@@ -55,6 +56,17 @@ export const deleteProfile = async (req, res) => {
         .status(400)
         .json({ message: 'Отсутствует идентификатор пользователя' });
     }
+
+    const user = await User.findById(userId);
+
+    if (!user) {
+      return res.status(404).json({ message: 'Пользователь не найден' });
+    }
+
+    if (user.avatarUrl && fs.existsSync(user.avatarUrl)) {
+      fs.unlinkSync(user.avatarUrl);
+    }
+
     const deletedUser = await User.findByIdAndDelete(userId);
 
     if (!deletedUser) {

@@ -17,6 +17,7 @@ const UserSchema = new mongoose.Schema(
     linkedinUrl: String,
     websiteUrl: String,
     avatarUrl: String,
+    projects: Array,
     stacks: [
       {
         type: mongoose.Schema.Types.ObjectId,

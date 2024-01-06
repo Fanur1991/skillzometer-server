@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { loadData } from '../controllers/loadData.js';
+import { loadData } from '../controllers/loadDataController.js';
 
 const router = new Router();
 
