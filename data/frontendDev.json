@@ -1,0 +1,2243 @@
+{
+  "stack": {
+    "url": "frontend",
+    "name": "Frontend Developer",
+    "desc": "Front-end development involves creating visual and interactive website elements that users directly interact with, utilizing HTML for structure, CSS for style, and JavaScript for dynamics.",
+    "categories": [
+      {
+        "propId": 1231,
+        "name": "Internet Fundamentals",
+        "desc": "Core knowledge and skills related to internet technologies",
+        "skills": [
+          {
+            "name": "HTTP/HTTPS Protocols",
+            "desc": "Understanding the foundation of data communication on the web.",
+            "details": [
+              "Request/Response Cycle",
+              "Status Codes",
+              "Methods (GET, POST, PUT, DELETE)",
+              "Secure Data Transmission (HTTPS)"
+            ]
+          },
+          {
+            "name": "DNS and Web Hosting",
+            "desc": "Knowledge of how domain names are resolved and websites are hosted.",
+            "details": [
+              "Domain Name System (DNS)",
+              "Web Hosting Services",
+              "Domain Registration and Management"
+            ]
+          },
+          {
+            "name": "Web Security Basics",
+            "desc": "Fundamental concepts in web security.",
+            "details": [
+              "SSL/TLS Certificates",
+              "Cross-Site Scripting (XSS)",
+              "Cross-Site Request Forgery (CSRF)",
+              "Content Security Policy (CSP)"
+            ]
+          },
+          {
+            "name": "Web Performance Optimization",
+            "desc": "Techniques to improve the performance of web applications.",
+            "details": [
+              "Caching Strategies",
+              "Content Delivery Networks (CDNs)",
+              "Minification and Compression",
+              "Lazy Loading"
+            ]
+          },
+          {
+            "name": "SEO Fundamentals",
+            "desc": "Basic principles of Search Engine Optimization.",
+            "details": [
+              "Keyword Research",
+              "On-Page SEO (Meta Tags, Content Quality)",
+              "Off-Page SEO (Backlinks)",
+              "Technical SEO (Site Structure, Mobile Optimization)"
+            ]
+          },
+          {
+            "name": "APIs",
+            "desc": "Working with Application Programming Interfaces.",
+            "details": [
+              "RESTful Services",
+              "GraphQL",
+              "Authentication (OAuth, JWT)",
+              "Consuming and Designing APIs"
+            ]
+          },
+          {
+            "name": "Web Accessibility",
+            "desc": "Principles and practices for making web content accessible.",
+            "details": [
+              "WCAG Guidelines",
+              "ARIA Roles",
+              "Keyboard Navigation",
+              "Screen Reader Compatibility"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 1232,
+        "name": "HTML",
+        "desc": "Hyper Text Markup Language",
+        "skills": [
+          {
+            "name": "Semantic",
+            "desc": "A semantic element clearly describes its meaning to both the browser and the developer.",
+            "details": ["header", "nav", "article", "section", "footer"]
+          },
+          {
+            "name": "Accessibility",
+            "desc": "Provide the user a good way to navigate and interact with your site.",
+            "details": [
+              "ARIA roles",
+              "Alt attributes for images",
+              "Focus management"
+            ]
+          },
+          {
+            "name": "Forms and Input Types",
+            "desc": "Understanding of various form elements and input types for effective data collection.",
+            "details": ["<input>", "<form>", "Validation attributes"]
+          },
+          {
+            "name": "SEO Basics",
+            "desc": "Basic principles of Search Engine Optimization to improve website visibility.",
+            "details": ["Meta tags", "Heading structure", "Keywords"]
+          },
+          {
+            "name": "Multimedia Content",
+            "desc": "Embedding and managing multimedia content like images, videos, and audio.",
+            "details": ["<img>", "<video>", "<audio>"]
+          },
+          {
+            "name": "Responsive Images",
+            "desc": "Techniques for creating images that work well on devices with different resolutions.",
+            "details": ["srcset", "sizes"]
+          },
+          {
+            "name": "HTML5 APIs",
+            "desc": "Utilizing HTML5 APIs for enhanced functionality.",
+            "details": ["Canvas API", "Geolocation API", "Drag and Drop API"]
+          },
+          {
+            "name": "Linking External Resources",
+            "desc": "Linking external CSS files, scripts, and other resources.",
+            "details": ["<link>", "<script>", "Lazy loading"]
+          },
+          {
+            "name": "Data Attributes",
+            "desc": "Using data attributes for storing custom data on standard HTML elements.",
+            "details": ["data-*"]
+          },
+          {
+            "name": "HTML Templates",
+            "desc": "Using HTML templates for dynamic content generation.",
+            "details": ["<template>", "Slot"]
+          }
+        ]
+      },
+      {
+        "propId": 1233,
+        "name": "CSS",
+        "desc": "Cascading Style Sheets",
+        "skills": [
+          {
+            "name": "Layouts",
+            "desc": "Creating page layouts with CSS.",
+            "details": ["Flexbox", "Grid"]
+          },
+          {
+            "name": "Responsive Design",
+            "desc": "Ensuring the website looks good on various devices.",
+            "details": ["Media queries", "Viewport units"]
+          },
+          {
+            "name": "CSS Preprocessors",
+            "desc": "Using tools like Sass or Less to enhance CSS.",
+            "details": ["Sass", "Less"]
+          },
+          {
+            "name": "CSS Animations and Transitions",
+            "desc": "Creating interactive and engaging user interfaces with animations and transitions.",
+            "details": ["@keyframes", "transition", "animation"]
+          },
+          {
+            "name": "CSS Variables",
+            "desc": "Using CSS custom properties for efficient style management.",
+            "details": ["--var-name"]
+          },
+          {
+            "name": "Cross-Browser Compatibility",
+            "desc": "Ensuring that styles work consistently across different browsers.",
+            "details": ["Vendor prefixes", "Feature detection"]
+          },
+          {
+            "name": "Typography",
+            "desc": "Styling and manipulating text for readability and aesthetic appeal.",
+            "details": ["font-family", "line-height", "text-transform"]
+          },
+          {
+            "name": "Pseudo-Classes and Pseudo-Elements",
+            "desc": "Using pseudo-classes and pseudo-elements for advanced styling.",
+            "details": [":hover", "::before", "::after"]
+          },
+          {
+            "name": "CSS Frameworks",
+            "desc": "Utilizing CSS frameworks for rapid UI development.",
+            "details": [
+              "Ant Design",
+              "Bootstrap",
+              "Tailwind CSS",
+              "Materialize"
+            ]
+          },
+          {
+            "name": "CSS Methodologies",
+            "desc": "Implementing CSS methodologies for scalable and maintainable codebases.",
+            "details": ["BEM", "OOCSS", "SMACSS"]
+          }
+        ]
+      },
+      {
+        "propId": 1234,
+        "name": "JavaScript",
+        "desc": "Programming language for the web",
+        "skills": [
+          {
+            "name": "ES6+ Features",
+            "desc": "Using the latest features of ECMAScript.",
+            "details": [
+              "Arrow functions",
+              "Destructuring",
+              "Classes",
+              "Modules",
+              "Template Literals",
+              "Default Parameters",
+              "Spread/Rest Operators",
+              "Promises and Async/Await",
+              "Let and Const",
+              "Iterators and Generators",
+              "New Built-in Methods",
+              "Enhanced Object Literals",
+              "Map and Set",
+              "Symbol Type",
+              "Proxies",
+              "Reflect API",
+              "Tail Call Optimization"
+            ]
+          },
+          {
+            "name": "Promises and Async/Await",
+            "desc": "Handling asynchronous operations in JavaScript.",
+            "details": ["Promises", "Async functions", "Error Handling"]
+          },
+          {
+            "name": "WebSockets",
+            "desc": "Real-time communication between clients and servers."
+          },
+          {
+            "name": "Frontend Frameworks",
+            "desc": "Using frameworks like React, Vue.js, or Angular for building user interfaces.",
+            "details": ["React", "Vue.js", "Angular", "Svelte"]
+          },
+          {
+            "name": "State Management",
+            "desc": "Managing application state in complex apps.",
+            "details": ["Redux", "Vuex", "Context API"]
+          },
+          {
+            "name": "DOM Manipulation",
+            "desc": "Interacting with the Document Object Model (DOM).",
+            "details": [
+              "Selecting Elements",
+              "Creating/Removing Elements",
+              "Event Handling",
+              "Manipulating Attributes and Properties",
+              "Changing Styles",
+              "Traversing the DOM",
+              "Handling User Input",
+              "Creating Document Fragments",
+              "Delegating Events",
+              "Animating Elements",
+              "Working with the Shadow DOM"
+            ]
+          },
+          {
+            "name": "APIs and HTTP Requests",
+            "desc": "Working with APIs and handling HTTP requests.",
+            "details": [
+              "Fetch API",
+              "Axios",
+              "Async/Await",
+              "XMLHttpRequest",
+              "Handling JSON Data",
+              "Error Handling in HTTP Requests",
+              "Promises and Callbacks",
+              "HTTP Methods (GET, POST, PUT, DELETE)",
+              "Working with Headers and Parameters",
+              "Cross-Origin Resource Sharing (CORS)",
+              "WebSockets",
+              "GraphQL Requests",
+              "File Uploads and Downloads",
+              "Interceptors and Request Transformation"
+            ]
+          },
+          {
+            "name": "Testing",
+            "desc": "Writing and maintaining tests for JavaScript code.",
+            "details": ["Jest", "Mocha", "Chai"]
+          },
+          {
+            "name": "Debugging",
+            "desc": "Techniques and tools for debugging JavaScript.",
+            "details": ["Chrome DevTools", "Console Methods", "Source Maps"]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Improving the performance of JavaScript applications.",
+            "details": [
+              "Lazy Loading",
+              "Debouncing and Throttling",
+              "Web Workers",
+              "Minimizing and Compressing Assets",
+              "Optimizing DOM Manipulations",
+              "Avoiding Memory Leaks",
+              "Efficient Event Listeners",
+              "Using RequestAnimationFrame for Animations",
+              "Tree Shaking and Code Splitting",
+              "Optimizing Dependencies",
+              "Caching Strategies",
+              "Using Service Workers for Caching",
+              "Performance Monitoring and Auditing Tools",
+              "Critical Rendering Path Optimization",
+              "Using Virtual DOM and Reactive Frameworks Efficiently"
+            ]
+          },
+          {
+            "name": "Security",
+            "desc": "Understanding common security pitfalls and protections in JavaScript.",
+            "details": [
+              "Cross-Site Scripting (XSS)",
+              "Cross-Site Request Forgery (CSRF)",
+              "Content Security Policy (CSP)",
+              "Same-Origin Policy and CORS",
+              "Using HTTPS and Secure Protocols",
+              "Input Validation and Sanitization",
+              "Handling Sensitive Data Securely",
+              "JSON Web Tokens (JWT) for Secure Data Transmission",
+              "Avoiding Eval() and Unsafe Functions",
+              "Securing Web Storage (LocalStorage and SessionStorage)",
+              "Defending Against Clickjacking",
+              "Implementing Secure Authentication and Authorization",
+              "Security Headers and Best Practices",
+              "Regular Security Audits and Code Reviews",
+              "Dependency and Third-Party Library Security"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 1235,
+        "name": "Version Control Systems",
+        "desc": "GIT",
+        "skills": [
+          {
+            "name": "Basic Operations",
+            "desc": "Clone, commit, push, pull.",
+            "details": ["git clone", "git commit", "git push", "git pull"]
+          },
+          {
+            "name": "Branching and Merging",
+            "desc": "Creating branches, merging changes.",
+            "details": ["git branch", "git merge", "git checkout"]
+          },
+          {
+            "name": "Conflict Resolution",
+            "desc": "Managing and resolving merge conflicts.",
+            "details": ["Merge tools", "Conflict markers"]
+          },
+          {
+            "name": "Stashing and Tagging",
+            "desc": "Managing changes temporarily and marking specific points in history.",
+            "details": ["git stash", "git tag"]
+          },
+          {
+            "name": "Remote Repositories",
+            "desc": "Working with remote repositories.",
+            "details": ["git remote", "git fetch", "Pull Requests"]
+          },
+          {
+            "name": "Advanced GIT Features",
+            "desc": "Using advanced features of GIT for efficient workflow.",
+            "details": ["Rebasing", "Cherry-picking", "Interactive Rebase"]
+          },
+          {
+            "name": "GIT Hooks",
+            "desc": "Automating tasks with GIT hooks.",
+            "details": ["pre-commit", "post-merge"]
+          },
+          {
+            "name": "GIT Workflows",
+            "desc": "Understanding and implementing GIT workflows.",
+            "details": [
+              "Feature Branch Workflow",
+              "Gitflow Workflow",
+              "Forking Workflow"
+            ]
+          },
+          {
+            "name": "Version Control Best Practices",
+            "desc": "Adhering to best practices for version control.",
+            "details": ["Commit messages", "Branch management", "Code review"]
+          }
+        ]
+      },
+      {
+        "propId": 1236,
+        "name": "VCS Hosting",
+        "desc": "Platforms and skills for hosting and managing code repositories",
+        "skills": [
+          {
+            "name": "GitHub",
+            "desc": "The most popular platform for hosting Git repositories.",
+            "details": [
+              "Repository Management",
+              "Pull Requests and Code Review",
+              "GitHub Actions for CI/CD",
+              "Issue Tracking",
+              "GitHub Pages for Web Hosting"
+            ]
+          },
+          {
+            "name": "GitLab",
+            "desc": "A web-based DevOps lifecycle tool that provides a Git repository manager.",
+            "details": [
+              "Continuous Integration/Continuous Deployment (CI/CD)",
+              "Project Issue Tracking",
+              "Private and Public Repositories",
+              "GitLab CI/CD Pipelines",
+              "Container Registry"
+            ]
+          },
+          {
+            "name": "Bitbucket",
+            "desc": "A web-based version control repository hosting service owned by Atlassian.",
+            "details": [
+              "Integration with Jira and Trello",
+              "Pull Requests and Code Review",
+              "Bitbucket Pipelines for CI/CD",
+              "Branch Permissions",
+              "Code Insights"
+            ]
+          },
+          {
+            "name": "SourceForge",
+            "desc": "A web-based service that offers software developers a centralized online location to control and manage free and open-source software projects.",
+            "details": [
+              "Project Hosting",
+              "Mirrored Downloads",
+              "Issue Tracking",
+              "Project Wiki and Discussion"
+            ]
+          },
+          {
+            "name": "Collaboration and Teamwork",
+            "desc": "Skills related to effectively collaborating on code hosting platforms.",
+            "details": [
+              "Effective Use of Branching and Merging",
+              "Code Review Practices",
+              "Collaborative Coding Standards",
+              "Communication in Issue Tracking and Pull Requests"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 1237,
+        "name": "Package Managers",
+        "desc": "npm, Yarn",
+        "skills": [
+          {
+            "name": "Dependency Management",
+            "desc": "Installing, updating, and managing project dependencies.",
+            "details": [
+              "Installing packages",
+              "Version management",
+              "package.json",
+              "node_modules"
+            ]
+          },
+          {
+            "name": "Scripting",
+            "desc": "Automating tasks using scripts in package managers.",
+            "details": ["npm scripts", "Yarn scripts", "Custom scripts"]
+          },
+          {
+            "name": "Package Publishing",
+            "desc": "Publishing packages to npm or Yarn registries.",
+            "details": ["Versioning", "Publishing", "Maintaining packages"]
+          },
+          {
+            "name": "Security and Auditing",
+            "desc": "Ensuring the security of dependencies and auditing them.",
+            "details": ["npm audit", "Yarn audit", "Dependency checking"]
+          },
+          {
+            "name": "Package Locking",
+            "desc": "Understanding and using package-lock.json and yarn.lock for consistent dependency resolution.",
+            "details": ["package-lock.json", "yarn.lock"]
+          },
+          {
+            "name": "Private Registries",
+            "desc": "Working with private or custom package registries.",
+            "details": ["npm Enterprise", "Yarn private registries"]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Optimizing package installation and loading.",
+            "details": ["Caching", "Parallel installation"]
+          },
+          {
+            "name": "Troubleshooting",
+            "desc": "Resolving common issues with package managers.",
+            "details": [
+              "Version conflicts",
+              "Broken dependencies",
+              "Network issues"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 1238,
+        "name": "React",
+        "desc": "A JavaScript library for building user interfaces",
+        "skills": [
+          {
+            "name": "JSX",
+            "desc": "JavaScript XML syntax used in React for defining UI components.",
+            "details": [
+              "Syntax and Usage",
+              "Embedding Expressions",
+              "JSX vs. HTML",
+              "Component and Element Creation"
+            ]
+          },
+          {
+            "name": "Hooks",
+            "desc": "Functions for managing state and lifecycle in functional components.",
+            "details": [
+              "useState and useEffect Basics",
+              "Custom Hooks",
+              "Hooks for Context and Reducers",
+              "Rules of Hooks"
+            ]
+          },
+          {
+            "name": "Context API",
+            "desc": "Provides a way to pass data through the component tree without having to pass props down manually at every level.",
+            "details": [
+              "Creating Context",
+              "Consuming Context",
+              "Context Provider",
+              "Dynamic Context"
+            ]
+          },
+          {
+            "name": "React Router",
+            "desc": "Declarative routing for React applications.",
+            "details": [
+              "Route Configuration",
+              "Link vs NavLink",
+              "Route Parameters",
+              "Nested Routing"
+            ]
+          },
+          {
+            "name": "Higher-Order Components",
+            "desc": "A technique in React for reusing component logic.",
+            "details": [
+              "HOC Patterns",
+              "Props Proxy and Inheritance Inversion",
+              "Composition",
+              "Common Use Cases"
+            ]
+          },
+          {
+            "name": "State and Lifecycle",
+            "desc": "Managing state and lifecycle events in class components.",
+            "details": [
+              "State Initialization and Update",
+              "Lifecycle Methods",
+              "Mounting and Unmounting",
+              "ComponentDidUpdate and ShouldComponentUpdate"
+            ]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Techniques for optimizing React applications, including memoization and shouldComponentUpdate.",
+            "details": [
+              "Using PureComponent and React.memo",
+              "Virtualization",
+              "Optimizing Component Rendering",
+              "Using React Profiler"
+            ]
+          },
+          {
+            "name": "Testing",
+            "desc": "Writing and maintaining tests using tools like Jest and React Testing Library.",
+            "details": [
+              "Unit Testing Components",
+              "Mocking and Spies",
+              "Testing Hooks",
+              "Integration Testing with React Testing Library"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 1239,
+        "name": "Vue.js",
+        "desc": "A progressive framework for building user interfaces",
+        "skills": [
+          {
+            "name": "Vue CLI",
+            "desc": "Standard tooling for Vue.js development.",
+            "details": [
+              "Project Scaffolding",
+              "Configuration and Customization",
+              "Build and Deployment",
+              "Plugin System"
+            ]
+          },
+          {
+            "name": "Reactive Data Binding",
+            "desc": "Automatically updating the DOM when the state changes.",
+            "details": [
+              "Data and Computed Properties",
+              "Two-Way Binding with v-model",
+              "Reactivity System",
+              "Watchers for Reactive Changes"
+            ]
+          },
+          {
+            "name": "Vuex",
+            "desc": "State management pattern and library for Vue.js applications.",
+            "details": [
+              "State, Getters, Actions, and Mutations",
+              "Vuex Store Integration",
+              "Modules in Vuex",
+              "State Management Patterns"
+            ]
+          },
+          {
+            "name": "Vue Router",
+            "desc": "The official router for Vue.js, used for navigating between pages.",
+            "details": [
+              "Router Configuration",
+              "Dynamic Route Matching",
+              "Navigation Guards",
+              "Route Parameters and Query"
+            ]
+          },
+          {
+            "name": "Single File Components",
+            "desc": "A Vue.js specific file format for writing HTML, CSS, and JavaScript in one file.",
+            "details": [
+              "Structure of Single File Components",
+              "Scoped CSS",
+              "Using Pre-processors",
+              "Component Import and Export"
+            ]
+          },
+          {
+            "name": "Component Lifecycle",
+            "desc": "Understanding and using Vue.js lifecycle hooks.",
+            "details": [
+              "Lifecycle Hook Usage",
+              "Mounting and Updating",
+              "Destruction Lifecycle",
+              "Lifecycle Hook Best Practices"
+            ]
+          },
+          {
+            "name": "Mixins",
+            "desc": "A flexible way to distribute reusable functionalities for Vue components.",
+            "details": [
+              "Creating and Using Mixins",
+              "Global and Local Mixins",
+              "Mixin Merge Strategies",
+              "Use Cases and Limitations"
+            ]
+          },
+          {
+            "name": "Testing",
+            "desc": "Using Vue Test Utils and Jest for testing Vue.js applications.",
+            "details": [
+              "Unit Testing Components",
+              "Mocking Dependencies",
+              "Testing Emitted Events",
+              "Snapshot Testing"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12310,
+        "name": "Angular",
+        "desc": "A platform and framework for building single-page client applications",
+        "skills": [
+          {
+            "name": "TypeScript",
+            "desc": "A primary language for Angular development, offering types and class-based syntax.",
+            "details": [
+              "Basic Types and Interfaces",
+              "Classes and Decorators",
+              "TypeScript Configuration for Angular",
+              "Advanced TypeScript Features in Angular"
+            ]
+          },
+          {
+            "name": "Angular CLI",
+            "desc": "Command Line Interface for Angular, used for generating, developing, and testing Angular applications.",
+            "details": [
+              "Generating Components, Services, and Modules",
+              "Build and Serve Angular Applications",
+              "CLI Commands and Flags",
+              "Environment Configuration"
+            ]
+          },
+          {
+            "name": "RxJS and Observables",
+            "desc": "Asynchronous programming with observable streams in Angular.",
+            "details": [
+              "Creating and Subscribing to Observables",
+              "Commonly Used RxJS Operators",
+              "Error Handling in Observables",
+              "Use in Angular Services and Components"
+            ]
+          },
+          {
+            "name": "Services and Dependency Injection",
+            "desc": "Core concepts in Angular for sharing data and functionality between components.",
+            "details": [
+              "Creating and Injecting Services",
+              "Singleton Services and Hierarchical Injectors",
+              "Providing Services in Modules",
+              "Using Dependency Injection Tokens"
+            ]
+          },
+          {
+            "name": "Angular Modules and Routing",
+            "desc": "Organizing code into cohesive blocks and implementing navigation.",
+            "details": [
+              "NgModule Basics",
+              "Lazy Loading and Eager Loading",
+              "Configuring Routes",
+              "Router Outlets and Route Guards"
+            ]
+          },
+          {
+            "name": "Component and Data Binding",
+            "desc": "Creating interactive components and binding data to templates.",
+            "details": [
+              "Component Lifecycle Hooks",
+              "Data Binding Syntax (Property, Event, Two-Way)",
+              "Input and Output Properties",
+              "Dynamic Component Loading"
+            ]
+          },
+          {
+            "name": "Forms",
+            "desc": "Building and validating user input forms in Angular.",
+            "details": [
+              "Template-Driven Forms",
+              "Reactive Forms",
+              "Form Validation",
+              "Custom Form Controls"
+            ]
+          },
+          {
+            "name": "Testing",
+            "desc": "Testing Angular applications using Jasmine and Karma.",
+            "details": [
+              "Unit Testing Components and Services",
+              "Integration Testing",
+              "Mocking Dependencies",
+              "End-to-End Testing with Protractor"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12311,
+        "name": "Svelte",
+        "desc": "A modern compiler-based JavaScript framework for building user interfaces",
+        "skills": [
+          {
+            "name": "Component Basics",
+            "desc": "Creating and using Svelte components.",
+            "details": [
+              "Component Structure",
+              "Reactive Declarations",
+              "Props and State Management"
+            ]
+          },
+          {
+            "name": "Reactivity",
+            "desc": "Understanding Svelte's unique reactivity model.",
+            "details": ["Reactive Statements", "Reactive Variables", "Bindings"]
+          },
+          {
+            "name": "Compilation and Build Process",
+            "desc": "Understanding how Svelte compiles applications.",
+            "details": [
+              "Build Tools Integration (Rollup, Webpack)",
+              "Preprocessing",
+              "Compilation Optimizations"
+            ]
+          },
+          {
+            "name": "Advanced Features",
+            "desc": "Using Svelte's advanced features for complex applications.",
+            "details": [
+              "Slots and Context API",
+              "Stores for State Management",
+              "Transitions and Animations"
+            ]
+          },
+          {
+            "name": "SvelteKit",
+            "desc": "Building full-stack applications using SvelteKit.",
+            "details": [
+              "Server-Side Rendering (SSR)",
+              "Routing",
+              "API Endpoints"
+            ]
+          },
+          {
+            "name": "Testing and Debugging",
+            "desc": "Testing and debugging Svelte applications.",
+            "details": [
+              "Unit Testing",
+              "Integration Testing",
+              "Debugging Techniques"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Adhering to best practices in Svelte development.",
+            "details": [
+              "Code Organization",
+              "Performance Best Practices",
+              "Accessibility Considerations"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12312,
+        "name": "Solid JS",
+        "desc": "A declarative, efficient, and flexible JavaScript library for building user interfaces",
+        "skills": [
+          {
+            "name": "Reactive Primitives",
+            "desc": "Understanding and using Solid's core reactivity model.",
+            "details": [
+              "Signals and Computed Values",
+              "Reactive Effects",
+              "Memoization"
+            ]
+          },
+          {
+            "name": "Component Design",
+            "desc": "Creating and structuring Solid components.",
+            "details": [
+              "Component Lifecycle",
+              "Props and State Management",
+              "Context API"
+            ]
+          },
+          {
+            "name": "JSX and Templating",
+            "desc": "Using JSX for templating in Solid.",
+            "details": [
+              "JSX Syntax",
+              "Control Flow Directives",
+              "Event Handling"
+            ]
+          },
+          {
+            "name": "State Management",
+            "desc": "Managing application state in Solid.",
+            "details": [
+              "Local State",
+              "Global State Management",
+              "Store Patterns"
+            ]
+          },
+          {
+            "name": "Advanced Concepts",
+            "desc": "Leveraging advanced features of Solid.",
+            "details": [
+              "Suspense and Lazy Loading",
+              "Error Boundaries",
+              "Server-Side Rendering (SSR)"
+            ]
+          },
+          {
+            "name": "Ecosystem and Tooling",
+            "desc": "Utilizing Solid's ecosystem and development tools.",
+            "details": [
+              "Routing Libraries",
+              "State Libraries (e.g., solid-store)",
+              "Build Tools (e.g., Vite, Webpack)"
+            ]
+          },
+          {
+            "name": "Testing and Debugging",
+            "desc": "Approaches to testing and debugging in Solid.",
+            "details": [
+              "Unit Testing",
+              "Integration Testing",
+              "Performance Testing"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in Solid development.",
+            "details": [
+              "Performance Optimization",
+              "Code Organization and Structure",
+              "Accessibility Considerations"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12313,
+        "name": "Qwik",
+        "desc": "A web framework designed for the fastest possible load times",
+        "skills": [
+          {
+            "name": "Lazy Loading",
+            "desc": "Implementing Qwik's efficient lazy loading strategy.",
+            "details": [
+              "Component-Level Lazy Loading",
+              "Optimizing Initial Load",
+              "Pre-fetching Strategies"
+            ]
+          },
+          {
+            "name": "State Management",
+            "desc": "Managing application state in a Qwik application.",
+            "details": [
+              "Server-Side State Hydration",
+              "Client-Side State Management",
+              "State Serialization and Rehydration"
+            ]
+          },
+          {
+            "name": "Qwik Optimizer",
+            "desc": "Utilizing Qwik Optimizer for efficient bundling and loading.",
+            "details": [
+              "Resource Prefetching",
+              "Build-Time Optimizations",
+              "Code Splitting and Bundling"
+            ]
+          },
+          {
+            "name": "Server-Side Rendering (SSR)",
+            "desc": "Implementing SSR in Qwik for improved performance.",
+            "details": [
+              "SSR Techniques",
+              "Hydration Optimization",
+              "Edge Caching and Rendering"
+            ]
+          },
+          {
+            "name": "Component Model",
+            "desc": "Understanding and using Qwik's component model.",
+            "details": [
+              "Creating Components",
+              "Lifecycle Hooks",
+              "Event Handling"
+            ]
+          },
+          {
+            "name": "SEO and Accessibility",
+            "desc": "Ensuring Qwik applications are SEO-friendly and accessible.",
+            "details": [
+              "Semantic HTML",
+              "Accessible Routing",
+              "SEO Best Practices"
+            ]
+          },
+          {
+            "name": "Testing and Debugging",
+            "desc": "Approaches to testing and debugging in Qwik.",
+            "details": [
+              "Unit and Integration Testing",
+              "Debugging Performance Issues",
+              "End-to-End Testing Strategies"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in Qwik development.",
+            "details": [
+              "Performance Optimization",
+              "Code Organization and Structure",
+              "Collaboration and Version Control"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12314,
+        "name": "CSS Libraries",
+        "desc": "Tailwind CSS, Bootstrap, Ant Design",
+        "skills": [
+          {
+            "name": "Tailwind CSS",
+            "desc": "A utility-first CSS framework for rapid UI development.",
+            "details": [
+              "Utility Classes",
+              "Responsive Design",
+              "Customization",
+              "Integration",
+              "Best Practices"
+            ]
+          },
+          {
+            "name": "Bootstrap",
+            "desc": "The most popular HTML, CSS, and JS library in the world.",
+            "details": [
+              "Grid System",
+              "Components",
+              "Customization",
+              "Theming",
+              "Accessibility"
+            ]
+          },
+          {
+            "name": "Ant Design",
+            "desc": "An enterprise-class UI design language and React-based implementation.",
+            "details": [
+              "React Components",
+              "Design Language",
+              "Customization",
+              "Layouts",
+              "Best Practices"
+            ]
+          },
+          {
+            "name": "General Skills",
+            "desc": "General skills applicable to working with CSS frameworks.",
+            "details": [
+              "Consistency",
+              "Performance",
+              "Cross-Browser Compatibility",
+              "Collaboration"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12315,
+        "name": "CSS Architecture",
+        "desc": "BEM and other methodologies",
+        "skills": [
+          {
+            "name": "Block Element Modifier (BEM)",
+            "desc": "A methodology for naming and organizing CSS classes.",
+            "details": [
+              "Naming Convention",
+              "Modularity",
+              "Scalability",
+              "Integration with Pre-processors"
+            ]
+          },
+          {
+            "name": "Object-Oriented CSS (OOCSS)",
+            "desc": "A methodology for writing CSS that's focused on object-oriented principles.",
+            "details": [
+              "Separation of Structure and Skin",
+              "Separation of Container and Content",
+              "Reusability"
+            ]
+          },
+          {
+            "name": "SMACSS (Scalable and Modular Architecture for CSS)",
+            "desc": "A style guide for organizing CSS into flexible and maintainable architecture.",
+            "details": ["Categorization", "State Rules", "Scalability"]
+          },
+          {
+            "name": "Atomic CSS",
+            "desc": "A methodology that involves breaking down styles into atomic, or indivisible, pieces.",
+            "details": ["Single Responsibility", "Composability", "Maintenance"]
+          }
+        ]
+      },
+      {
+        "propId": 12316,
+        "name": "CSS Preprocessors",
+        "desc": "Tools that extend CSS with variables, mixins, and more to write maintainable and scalable stylesheets",
+        "skills": [
+          {
+            "name": "Sass/SCSS",
+            "desc": "A preprocessor scripting language that is interpreted or compiled into CSS.",
+            "details": [
+              "Variables and Nesting",
+              "Mixins and Functions",
+              "Partials and Import",
+              "Loops and Conditionals",
+              "Extend/Inheritance"
+            ]
+          },
+          {
+            "name": "Less",
+            "desc": "A backward-compatible language extension for CSS.",
+            "details": [
+              "Variables",
+              "Mixins",
+              "Functions and Operations",
+              "Namespaces and Scope",
+              "Importing and Organizing"
+            ]
+          },
+          {
+            "name": "Stylus",
+            "desc": "A preprocessor that allows for more expressive, dynamic, and robust CSS.",
+            "details": [
+              "Flexible Syntax",
+              "Variables and Interpolation",
+              "Mixins and Functions",
+              "Conditional Logic and Loops",
+              "Error Handling"
+            ]
+          },
+          {
+            "name": "PostCSS",
+            "desc": "A tool for transforming CSS with JavaScript plugins.",
+            "details": [
+              "Autoprefixer",
+              "Custom Properties and Mixins",
+              "Future CSS Syntax",
+              "Linting and Optimization",
+              "Modular Architecture"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in using CSS preprocessors.",
+            "details": [
+              "Code Organization and Structure",
+              "Performance Considerations",
+              "Maintainability and Scalability",
+              "Integration with Frameworks and Build Tools"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12317,
+        "name": "Module Bundlers",
+        "desc": "Tools for bundling web assets for optimized performance and organization",
+        "skills": [
+          {
+            "name": "Webpack",
+            "desc": "A highly configurable module bundler for modern JavaScript applications.",
+            "details": [
+              "Configuration and Setup",
+              "Loaders and Plugins",
+              "Code Splitting and Lazy Loading",
+              "Asset Management",
+              "Optimization Techniques"
+            ]
+          },
+          {
+            "name": "Rollup",
+            "desc": "A module bundler for JavaScript which compiles small pieces of code into something larger and more complex.",
+            "details": [
+              "ES Modules and Tree Shaking",
+              "Plugins and Presets",
+              "Bundle Optimization",
+              "Code Splitting",
+              "Integration with Other Tools"
+            ]
+          },
+          {
+            "name": "Parcel",
+            "desc": "A web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.",
+            "details": [
+              "Zero Configuration Setup",
+              "Automatic Transformations",
+              "Hot Module Replacement (HMR)",
+              "Code Splitting",
+              "Built-in Support for Various Assets"
+            ]
+          },
+          {
+            "name": "Browserify",
+            "desc": "A tool for compiling node-flavored commonjs modules for the browser.",
+            "details": [
+              "Bundle Node Modules for Browser",
+              "Transformations and Plugins",
+              "Source Maps Support",
+              "Stream API"
+            ]
+          },
+          {
+            "name": "Vite",
+            "desc": "A modern frontend build tool that significantly improves the frontend development experience.",
+            "details": [
+              "Fast Cold Start",
+              "Instant Hot Module Replacement (HMR)",
+              "Out-of-the-Box TypeScript and JSX Support",
+              "Rich Plugin Interface and API",
+              "Optimized Build with Rollup"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in using module bundlers.",
+            "details": [
+              "Performance Optimization",
+              "Maintainable Configuration",
+              "Cross-Platform Compatibility",
+              "Integration with Development Workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12318,
+        "name": "Task Runners",
+        "desc": "Tools for automating development tasks and workflows",
+        "skills": [
+          {
+            "name": "Gulp",
+            "desc": "A toolkit to automate & enhance your workflow.",
+            "details": [
+              "Creating and Managing Tasks",
+              "Working with Streams and Pipelines",
+              "Automating CSS Preprocessing",
+              "Live Reloading and Browser Sync",
+              "Optimizing Assets (Images, JavaScript, CSS)"
+            ]
+          },
+          {
+            "name": "Grunt",
+            "desc": "A JavaScript task runner for automating repetitive tasks.",
+            "details": [
+              "Configuring and Running Tasks",
+              "Creating Custom Tasks",
+              "Managing Dependencies",
+              "Minification and Concatenation",
+              "Linting with JSHint or ESLint"
+            ]
+          },
+          {
+            "name": "npm scripts",
+            "desc": "Using npm's built-in script runner to automate tasks.",
+            "details": [
+              "Scripting Lifecycle Events",
+              "Running Tasks in Series or Parallel",
+              "Cross-Platform Scripting",
+              "Integrating with Other Tools and Task Runners",
+              "Simplifying Complex Tasks with npm-run-all"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in task automation.",
+            "details": [
+              "Maintainable Task Configuration",
+              "Efficient Task Execution",
+              "Error Handling and Logging",
+              "Integrating with Continuous Integration/Continuous Deployment (CI/CD)"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12319,
+        "name": "Linters and Formatters",
+        "desc": "Tools for enforcing code style guidelines and formatting code consistently",
+        "skills": [
+          {
+            "name": "ESLint",
+            "desc": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.",
+            "details": [
+              "Configuring Rules and Plugins",
+              "Integrating with IDEs",
+              "Custom Rule Development",
+              "Fixing and Formatting Code",
+              "Integrating with Build Processes"
+            ]
+          },
+          {
+            "name": "Prettier",
+            "desc": "An opinionated code formatter that supports many languages and integrates with most editors.",
+            "details": [
+              "Code Formatting Styles",
+              "Integration with ESLint",
+              "Editor Integration",
+              "Command Line Usage",
+              "Configuration and Overrides"
+            ]
+          },
+          {
+            "name": "Stylelint",
+            "desc": "A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.",
+            "details": [
+              "Configuring Rules for CSS",
+              "Integrating with Preprocessors like Sass",
+              "Custom Rules and Plugins",
+              "IDE Integration",
+              "Automated Fixing of Style Issues"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in code linting and formatting.",
+            "details": [
+              "Consistent Code Style Enforcement",
+              "Integrating Linters in Continuous Integration",
+              "Balancing Rules with Developer Experience",
+              "Automating Code Formatting",
+              "Collaboration and Code Review Integration"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12320,
+        "name": "Testing Applications",
+        "desc": "Practices and tools for ensuring the quality and reliability of applications",
+        "skills": [
+          {
+            "name": "Unit Testing",
+            "desc": "Testing individual components or pieces of code in isolation.",
+            "details": [
+              "Frameworks (Jest, Mocha, Jasmine)",
+              "Writing Testable Code",
+              "Mocking and Spies",
+              "Assertion Libraries"
+            ]
+          },
+          {
+            "name": "Jest",
+            "desc": "A delightful JavaScript testing framework with a focus on simplicity.",
+            "details": [
+              "Setup and Configuration",
+              "Writing Tests with Jest",
+              "Mock Functions and Modules",
+              "Snapshot Testing",
+              "Asynchronous Testing",
+              "Jest Matchers for Assertions"
+            ]
+          },
+          {
+            "name": "Integration Testing",
+            "desc": "Testing the interaction between integrated units or components.",
+            "details": [
+              "Test Planning and Design",
+              "End-to-End Testing Tools (Cypress, TestCafe)",
+              "API Testing",
+              "Database Integration Testing"
+            ]
+          },
+          {
+            "name": "Vitest",
+            "desc": "A Vite-native test framework that's fast and easy to use.",
+            "details": [
+              "Fast and Efficient Testing with Vite",
+              "Native ES Modules Support",
+              "Built-in Test Coverage",
+              "Integration with Vite's Dev Server",
+              "Support for Mocking and Snapshot Testing"
+            ]
+          },
+          {
+            "name": "Functional Testing",
+            "desc": "Testing the application against its functional requirements.",
+            "details": [
+              "User Interface Testing",
+              "User Flow and Scenario Testing",
+              "Cross-Browser Testing",
+              "Accessibility Testing"
+            ]
+          },
+          {
+            "name": "Performance Testing",
+            "desc": "Ensuring the application performs well under expected workload.",
+            "details": [
+              "Load Testing",
+              "Stress Testing",
+              "Performance Benchmarking",
+              "Optimization Strategies"
+            ]
+          },
+          {
+            "name": "Automated Testing",
+            "desc": "Using automation tools to execute tests and compare actual outcomes with predicted outcomes.",
+            "details": [
+              "Continuous Integration (CI) Tools",
+              "Test Automation Frameworks",
+              "Automated Regression Testing",
+              "Test Reporting and Analysis"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in software testing.",
+            "details": [
+              "Test-Driven Development (TDD)",
+              "Behavior-Driven Development (BDD)",
+              "Code Coverage Analysis",
+              "Maintaining Test Suites"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12321,
+        "name": "Authentication Strategies",
+        "desc": "Methods and practices for securely verifying user identities",
+        "skills": [
+          {
+            "name": "Basic Authentication",
+            "desc": "A simple authentication scheme built into the HTTP protocol.",
+            "details": [
+              "Username and Password Verification",
+              "Base64 Encoding",
+              "Security Considerations"
+            ]
+          },
+          {
+            "name": "Token-Based Authentication",
+            "desc": "Using tokens to manage user sessions and authenticate API requests.",
+            "details": [
+              "JSON Web Tokens (JWT)",
+              "Token Generation and Expiration",
+              "Stateless Authentication",
+              "Securing Token Transmission"
+            ]
+          },
+          {
+            "name": "OAuth and OpenID Connect",
+            "desc": "Implementing third-party authentication providers.",
+            "details": [
+              "OAuth 2.0 Flow",
+              "OpenID Connect for Identity Layer",
+              "Integrating with Social Logins (Google, Facebook, etc.)",
+              "Access and Refresh Tokens"
+            ]
+          },
+          {
+            "name": "Two-Factor Authentication (2FA)",
+            "desc": "Adding an extra layer of security through a two-step verification process.",
+            "details": [
+              "SMS-Based Verification",
+              "Authenticator Apps",
+              "Backup Codes",
+              "Implementation Best Practices"
+            ]
+          },
+          {
+            "name": "Single Sign-On (SSO)",
+            "desc": "Enabling users to authenticate with multiple systems using one set of credentials.",
+            "details": [
+              "SSO Protocols (SAML, Kerberos)",
+              "Integrating SSO in Enterprise Applications",
+              "Security and Compliance",
+              "User Experience Considerations"
+            ]
+          },
+          {
+            "name": "Passwordless Authentication",
+            "desc": "Implementing authentication mechanisms without requiring a password.",
+            "details": [
+              "Email Link or OTP",
+              "Biometric Authentication",
+              "WebAuthn and FIDO2",
+              "Security and Usability Trade-offs"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in implementing authentication.",
+            "details": [
+              "Securing User Data",
+              "Handling Authentication Errors",
+              "Regular Security Audits",
+              "Compliance with Data Protection Regulations"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12322,
+        "name": "Web Security Knowledge",
+        "desc": "Essential security concepts and practices for safeguarding web applications",
+        "skills": [
+          {
+            "name": "Cross-Origin Resource Sharing (CORS)",
+            "desc": "Mechanism that allows or restricts requested resources on a web page from another domain.",
+            "details": [
+              "Understanding Same-Origin Policy",
+              "Configuring CORS Headers",
+              "Safe and Unsafe CORS Practices",
+              "Preflight Requests"
+            ]
+          },
+          {
+            "name": "HTTPS and SSL/TLS",
+            "desc": "Protocols for secure communication over a computer network.",
+            "details": [
+              "SSL/TLS Handshake",
+              "Certificate Authorities",
+              "Implementing HTTPS in Web Applications",
+              "Best Practices for Certificate Management"
+            ]
+          },
+          {
+            "name": "Content Security Policy (CSP)",
+            "desc": "An added layer of security to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks.",
+            "details": [
+              "Implementing CSP",
+              "Directive Configuration",
+              "Nonce and Hash Usage",
+              "Reporting and Policy Violations"
+            ]
+          },
+          {
+            "name": "OWASP Security Risks",
+            "desc": "Understanding the top security risks identified by the Open Web Application Security Project (OWASP).",
+            "details": [
+              "Injection Attacks",
+              "Broken Authentication",
+              "Sensitive Data Exposure",
+              "Cross-Site Scripting (XSS)",
+              "Using Components with Known Vulnerabilities"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in web security.",
+            "details": [
+              "Regular Security Audits",
+              "Keeping Dependencies Updated",
+              "Data Encryption and Sanitization",
+              "User Authentication and Authorization"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12323,
+        "name": "Web Components",
+        "desc": "A set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags",
+        "skills": [
+          {
+            "name": "HTML Templates",
+            "desc": "HTML template tags to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.",
+            "details": [
+              "Using <template> and <slot>",
+              "Template Instantiation",
+              "Managing Template Content"
+            ]
+          },
+          {
+            "name": "Custom Elements",
+            "desc": "Creating new HTML tags or extending existing ones.",
+            "details": [
+              "Defining Custom Elements",
+              "Lifecycle Callbacks",
+              "Encapsulation and Reusability",
+              "Best Practices in Custom Elements Development"
+            ]
+          },
+          {
+            "name": "Shadow DOM",
+            "desc": "Encapsulating style and markup in web components.",
+            "details": [
+              "Creating Shadow Roots",
+              "Style Encapsulation",
+              "DOM Isolation",
+              "Slot Distribution"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in developing web components.",
+            "details": [
+              "Ensuring Accessibility",
+              "Performance Considerations",
+              "Interoperability with Other Frameworks and Libraries",
+              "Testing Web Components"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12324,
+        "name": "TypeScript",
+        "desc": "A typed superset of JavaScript that compiles to plain JavaScript",
+        "skills": [
+          {
+            "name": "Basic Types",
+            "desc": "Understanding and using basic types in TypeScript.",
+            "details": [
+              "Primitive Types (string, number, boolean, etc.)",
+              "Arrays and Tuples",
+              "Enums",
+              "Any, Unknown, and Never Types"
+            ]
+          },
+          {
+            "name": "Interfaces and Classes",
+            "desc": "Defining complex types with interfaces and classes.",
+            "details": [
+              "Interface Declaration",
+              "Class Types and Interfaces",
+              "Access Modifiers (public, private, protected)",
+              "Abstract Classes and Methods"
+            ]
+          },
+          {
+            "name": "Functions and Generics",
+            "desc": "Creating reusable and flexible functions and classes.",
+            "details": [
+              "Function Types",
+              "Optional and Default Parameters",
+              "Generic Types",
+              "Constraints and Type Parameters"
+            ]
+          },
+          {
+            "name": "Advanced Types",
+            "desc": "Leveraging advanced type capabilities in TypeScript.",
+            "details": [
+              "Union and Intersection Types",
+              "Type Guards and Type Assertions",
+              "Mapped Types",
+              "Conditional Types"
+            ]
+          },
+          {
+            "name": "Modules and Namespaces",
+            "desc": "Organizing code with modules and namespaces.",
+            "details": [
+              "Module Syntax and Resolution",
+              "Exporting and Importing Modules",
+              "Namespaces and Module Bundlers",
+              "Ambient Modules"
+            ]
+          },
+          {
+            "name": "Decorators",
+            "desc": "Using decorators to annotate and modify classes and properties at design time.",
+            "details": [
+              "Class Decorators",
+              "Method Decorators",
+              "Property Decorators",
+              "Parameter Decorators"
+            ]
+          },
+          {
+            "name": "TypeScript Configuration",
+            "desc": "Configuring TypeScript compiler options for different projects.",
+            "details": [
+              "tsconfig.json",
+              "Compiler Options",
+              "Build Targets and Environments",
+              "Integrating with Build Tools"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in TypeScript development.",
+            "details": [
+              "Type Safety and Avoiding 'any'",
+              "Code Linting with TSLint/ESLint",
+              "Effective Type Inference",
+              "Refactoring and Code Maintenance"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12325,
+        "name": "Server-Side Rendering (SSR)",
+        "desc": "Techniques and practices for rendering web pages on the server before sending them to the client",
+        "skills": [
+          {
+            "name": "SSR Basics",
+            "desc": "Understanding the fundamentals of server-side rendering.",
+            "details": [
+              "Benefits and Drawbacks of SSR",
+              "How SSR Works",
+              "SSR vs Client-Side Rendering (CSR)"
+            ]
+          },
+          {
+            "name": "SSR Frameworks",
+            "desc": "Using popular frameworks and libraries for SSR.",
+            "details": [
+              "Next.js for React",
+              "Nuxt.js for Vue",
+              "Angular Universal",
+              "SSR with SvelteKit"
+            ]
+          },
+          {
+            "name": "SEO and Performance",
+            "desc": "Optimizing server-rendered pages for search engines and performance.",
+            "details": [
+              "Improving First Contentful Paint (FCP)",
+              "SEO Best Practices",
+              "Caching Strategies",
+              "Load Balancing and Server Management"
+            ]
+          },
+          {
+            "name": "State Management and Hydration",
+            "desc": "Managing application state in SSR and client-side hydration.",
+            "details": [
+              "State Synchronization Between Server and Client",
+              "Client-Side Hydration",
+              "Handling Authentication and Session Management"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in SSR development.",
+            "details": [
+              "Handling Asynchronous Data",
+              "Optimizing Server Load and Response Time",
+              "Error Handling and Logging",
+              "Integrating with APIs and Microservices"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12326,
+        "name": "GraphQL",
+        "desc": "A query language for your API, and a server-side runtime for executing queries",
+        "skills": [
+          {
+            "name": "GraphQL Basics",
+            "desc": "Understanding the core concepts of GraphQL.",
+            "details": [
+              "Queries, Mutations, and Subscriptions",
+              "Schema Definition",
+              "Resolvers",
+              "GraphQL Operations"
+            ]
+          },
+          {
+            "name": "Apollo Client",
+            "desc": "A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.",
+            "details": [
+              "Integrating Apollo Client with React",
+              "Querying and Mutating Data",
+              "Caching GraphQL Responses",
+              "Advanced Apollo Client Features like Local State Management"
+            ]
+          },
+          {
+            "name": "Relay Modern",
+            "desc": "A JavaScript framework for building data-driven React applications with GraphQL.",
+            "details": [
+              "Setting up Relay Environment",
+              "Using Relay Compiler",
+              "Fragment Containers, Pagination Containers, and Refetch Containers",
+              "Optimizing with Relay Store and Network Layer"
+            ]
+          },
+          {
+            "name": "Server-Side Implementation",
+            "desc": "Implementing a GraphQL server.",
+            "details": [
+              "Setting up a GraphQL Server",
+              "Schema Design and Resolvers",
+              "Authentication and Authorization",
+              "Error Handling and Validation"
+            ]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Optimizing GraphQL queries and server performance.",
+            "details": [
+              "Query Batching and Merging",
+              "Pagination and Data Loading",
+              "Caching Strategies",
+              "Monitoring and Performance Metrics"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in GraphQL development.",
+            "details": [
+              "Schema Design Principles",
+              "Security Considerations",
+              "Versioning and API Evolution",
+              "Documentation and Tooling"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12327,
+        "name": "Static Site Generators",
+        "desc": "Tools for building static websites quickly and efficiently",
+        "skills": [
+          {
+            "name": "Jekyll",
+            "desc": "A simple, blog-aware, static site generator for personal, project, or organization sites.",
+            "details": [
+              "Creating and Organizing Content",
+              "Liquid Templating Engine",
+              "Integrating with GitHub Pages",
+              "Customizing Themes and Layouts"
+            ]
+          },
+          {
+            "name": "Gatsby",
+            "desc": "A React-based, GraphQL powered, static site generator.",
+            "details": [
+              "Building with React and GraphQL",
+              "Performance Optimization",
+              "Plugin Ecosystem",
+              "Integrating with CMSs"
+            ]
+          },
+          {
+            "name": "Hugo",
+            "desc": "One of the most popular open-source static site generators with its amazing speed and flexibility.",
+            "details": [
+              "Content Management",
+              "Shortcodes for Rich Content",
+              "Custom Themes",
+              "Deployment and Hosting"
+            ]
+          },
+          {
+            "name": "Next.js",
+            "desc": "A React framework that enables functionality such as server-side rendering and generating static websites.",
+            "details": [
+              "Static Site Generation (SSG) with Next.js",
+              "Hybrid Pages with Static and Server Rendering",
+              "API Routes",
+              "Optimizing with Incremental Static Regeneration"
+            ]
+          },
+          {
+            "name": "Nuxt.js",
+            "desc": "An intuitive Vue framework for building server-rendered applications, static generated sites or single page applications.",
+            "details": [
+              "Generating Static Sites with Vue.js",
+              "Automatic Code Splitting",
+              "SEO Optimization",
+              "Integrating with Headless CMS"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in static site generation.",
+            "details": [
+              "SEO Best Practices",
+              "Performance Optimization",
+              "Content Strategy",
+              "Automating Builds and Deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12328,
+        "name": "Progressive Web Apps",
+        "desc": "Building web applications with native app-like user experiences",
+        "skills": [
+          {
+            "name": "Service Workers",
+            "desc": "Scripts that run in the background and assist in offline support, network resilience, and background sync.",
+            "details": [
+              "Registering and Installing Service Workers",
+              "Caching Strategies",
+              "Push Notifications",
+              "Background Sync"
+            ]
+          },
+          {
+            "name": "Web App Manifest",
+            "desc": "A JSON file that allows you to control how your app appears to the user and ensures it can be installed on the home screen.",
+            "details": [
+              "Defining the Web App Manifest",
+              "Icons and Splash Screens",
+              "Add to Home Screen (A2HS) Experience",
+              "Linking the Manifest to Your HTML"
+            ]
+          },
+          {
+            "name": "Responsive Design",
+            "desc": "Creating web applications that look and function well on any device.",
+            "details": [
+              "Media Queries",
+              "Flexible Grids and Layouts",
+              "Responsive Images and Media",
+              "Mobile-First Design Principles"
+            ]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Enhancing the performance of web applications for a smoother and faster user experience.",
+            "details": [
+              "Optimizing JavaScript and CSS",
+              "Lazy Loading of Resources",
+              "Minimizing HTTP Requests",
+              "Performance Metrics and Auditing (e.g., Lighthouse)"
+            ]
+          },
+          {
+            "name": "Offline Support",
+            "desc": "Ensuring the app can function offline or on low-quality networks.",
+            "details": [
+              "Offline Data Storage",
+              "Service Worker Caching",
+              "Graceful Degradation",
+              "Progressive Enhancement"
+            ]
+          },
+          {
+            "name": "Security",
+            "desc": "Implementing security best practices in PWA development.",
+            "details": [
+              "HTTPS Implementation",
+              "Cross-Site Scripting (XSS) Prevention",
+              "Content Security Policy (CSP)",
+              "Secure Data Transmission and Storage"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in PWA development.",
+            "details": [
+              "User Engagement and Retention",
+              "Accessibility Standards",
+              "Cross-Browser Compatibility",
+              "Continuous Testing and Feedback"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12329,
+        "name": "Mobile Applications",
+        "desc": "Developing applications for mobile devices across various platforms",
+        "skills": [
+          {
+            "name": "Native Development",
+            "desc": "Building applications specifically for mobile operating systems.",
+            "details": [
+              "iOS Development with Swift/Objective-C",
+              "Android Development with Kotlin/Java",
+              "Understanding Mobile UI/UX Principles",
+              "Accessing Device Features (Camera, GPS, Sensors)"
+            ]
+          },
+          {
+            "name": "Cross-Platform Development",
+            "desc": "Creating applications that run across multiple mobile platforms.",
+            "details": [
+              "React Native",
+              "Flutter",
+              "Xamarin",
+              "Code Sharing and Architecture"
+            ]
+          },
+          {
+            "name": "Mobile App Testing",
+            "desc": "Ensuring the quality and performance of mobile applications.",
+            "details": [
+              "Unit and Integration Testing",
+              "UI and End-to-End Testing",
+              "Performance Testing",
+              "Testing on Different Devices and OS Versions"
+            ]
+          },
+          {
+            "name": "App Deployment and Distribution",
+            "desc": "Publishing applications to app stores and managing their distribution.",
+            "details": [
+              "App Store and Google Play Deployment",
+              "App Store Optimization (ASO)",
+              "Managing App Updates and Versions",
+              "Beta Testing and User Feedback"
+            ]
+          },
+          {
+            "name": "Mobile Backend Integration",
+            "desc": "Connecting mobile applications with backend services.",
+            "details": [
+              "RESTful APIs and GraphQL",
+              "Authentication and Authorization",
+              "Data Synchronization",
+              "Push Notifications"
+            ]
+          },
+          {
+            "name": "Performance Optimization",
+            "desc": "Optimizing mobile applications for speed and efficiency.",
+            "details": [
+              "Memory Management",
+              "Battery Usage Optimization",
+              "Network Usage Optimization",
+              "Responsive and Efficient UI"
+            ]
+          },
+          {
+            "name": "Security",
+            "desc": "Implementing security measures in mobile applications.",
+            "details": [
+              "Data Encryption",
+              "Secure Storage",
+              "SSL Pinning",
+              "Handling Sensitive Data"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in mobile application development.",
+            "details": [
+              "Adhering to Platform Guidelines",
+              "Responsive Design and Accessibility",
+              "Continuous Integration and Delivery (CI/CD)",
+              "Monitoring and Analytics"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12330,
+        "name": "Desktop Applications in JavaScript",
+        "desc": "Building cross-platform desktop applications using JavaScript",
+        "skills": [
+          {
+            "name": "Electron",
+            "desc": "A framework for creating native applications with web technologies like JavaScript, HTML, and CSS.",
+            "details": [
+              "Main and Renderer Processes",
+              "Integrating with Node.js",
+              "Building and Packaging Applications",
+              "Accessing Native OS Features",
+              "Performance Optimization"
+            ]
+          },
+          {
+            "name": "NW.js",
+            "desc": "A framework for building desktop applications using HTML, CSS, and JavaScript.",
+            "details": [
+              "App Architecture and Lifecycle",
+              "Using Node.js Modules in NW.js",
+              "Packaging and Distribution",
+              "Native OS Integration",
+              "UI Frameworks and Toolkits Compatibility"
+            ]
+          },
+          {
+            "name": "Application Security",
+            "desc": "Ensuring security in desktop applications built with JavaScript.",
+            "details": [
+              "Handling Sensitive Data",
+              "Securing Application Code",
+              "Sandboxing and Context Isolation",
+              "Preventing Injection Attacks"
+            ]
+          },
+          {
+            "name": "User Interface Design",
+            "desc": "Designing user interfaces for desktop applications.",
+            "details": [
+              "Responsive and Adaptive UI",
+              "Integrating with UI Libraries",
+              "Customizing Look and Feel",
+              "Accessibility Considerations"
+            ]
+          },
+          {
+            "name": "Interoperability",
+            "desc": "Ensuring interoperability with different operating systems and environments.",
+            "details": [
+              "Cross-Platform Compatibility",
+              "File System Access",
+              "External Process Interaction",
+              "Hardware Access"
+            ]
+          },
+          {
+            "name": "Best Practices",
+            "desc": "Following best practices in desktop application development.",
+            "details": [
+              "Code Organization and Modularization",
+              "Application Performance Monitoring",
+              "Automated Testing and Continuous Integration",
+              "User Experience and Usability Testing"
+            ]
+          }
+        ]
+      },
+      {
+        "propId": 12331,
+        "name": "UI / UX Knowledge",
+        "desc": "Understanding principles and practices for designing user interfaces and enhancing user experience",
+        "skills": [
+          {
+            "name": "Principles of Design",
+            "desc": "Fundamental concepts of visual design",
+            "details": [
+              "Balance and Alignment",
+              "Contrast and Hierarchy",
+              "Repetition and Consistency",
+              "Proximity and Space"
+            ]
+          },
+          {
+            "name": "User-Centered Design",
+            "desc": "Approach focusing on user needs and requirements",
+            "details": [
+              "Empathy with Users",
+              "User Research Techniques",
+              "Personas and User Stories",
+              "Usability Goals"
+            ]
+          },
+          {
+            "name": "Interaction Design",
+            "desc": "Designing interactive digital products and systems",
+            "details": [
+              "Interactive Elements",
+              "Feedback and Response Time",
+              "Motion Design",
+              "Affordances and Signifiers"
+            ]
+          },
+          {
+            "name": "Responsive and Adaptive Design",
+            "desc": "Creating designs that adapt to different screen sizes and devices",
+            "details": [
+              "Fluid Grids",
+              "Flexible Images",
+              "Media Queries",
+              "Mobile-First Approach"
+            ]
+          },
+          {
+            "name": "Wireframing and Prototyping",
+            "desc": "Developing the blueprint and interactive prototype of a product",
+            "details": [
+              "Low-Fidelity and High-Fidelity Wireframes",
+              "Prototyping Tools",
+              "User Testing of Prototypes",
+              "Iterative Design Process"
+            ]
+          },
+          {
+            "name": "User Research and Personas",
+            "desc": "Understanding the target audience and their needs",
+            "details": [
+              "Conducting Surveys and Interviews",
+              "Creating User Personas",
+              "Journey Mapping",
+              "Analyzing User Feedback"
+            ]
+          },
+          {
+            "name": "Usability Testing",
+            "desc": "Evaluating a product by testing it with users",
+            "details": [
+              "Planning Usability Tests",
+              "Task Analysis",
+              "Observing User Interactions",
+              "Analyzing Test Results"
+            ]
+          },
+          {
+            "name": "Information Architecture",
+            "desc": "Structuring and organizing information in a product",
+            "details": [
+              "Navigation Design",
+              "Content Categorization",
+              "Search Systems",
+              "Information Hierarchy"
+            ]
+          },
+          {
+            "name": "Visual Design Elements and Principles",
+            "desc": "Crafting the aesthetic aspects of a product",
+            "details": [
+              "Color Theory",
+              "Typography",
+              "Iconography",
+              "Visual Consistency"
+            ]
+          },
+          {
+            "name": "Accessibility Standards",
+            "desc": "Ensuring products are accessible to all users, including those with disabilities",
+            "details": [
+              "WCAG Guidelines",
+              "Accessible Navigation",
+              "Screen Reader Compatibility",
+              "Color Contrast and Legibility"
+            ]
+          },
+          {
+            "name": "User Interface Patterns",
+            "desc": "Common solutions to design problems",
+            "details": [
+              "Navigation Patterns",
+              "Data Input and Forms",
+              "Error Handling",
+              "Feedback and Confirmation"
+            ]
+          },
+          {
+            "name": "Design Tools and Software",
+            "desc": "Tools used for creating UI/UX designs",
+            "details": ["Sketch", "Adobe XD", "Figma", "InVision"]
+          },
+          {
+            "name": "Evaluating User Feedback",
+            "desc": "Analyzing feedback to improve the product",
+            "details": [
+              "User Surveys",
+              "Feedback Channels",
+              "A/B Testing",
+              "Iterative Design"
+            ]
+          },
+          {
+            "name": "Collaboration with Developers and Stakeholders",
+            "desc": "Working effectively within a team and with clients",
+            "details": [
+              "Communication Skills",
+              "Design Handoff",
+              "Agile and Scrum Methodologies",
+              "Stakeholder Presentations"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import authRoute from './routes/authRoute.js';
 import stacksRoute from './routes/stacksRoute.js';
-import loadDataRoute from './routes/loadDataRoute.js';
+import uploadDataRoute from './routes/uploadDataRoute.js';
 import userRoute from './routes/userRoute.js';
 import userAvatarRoute from './routes/userAvatarRoute.js';
 import projectsRoute from './routes/projectsRoute.js';
@@ -30,7 +30,7 @@ app.use('/api/auth/user', userRoute);
 app.use('/api/auth', userAvatarRoute);
 app.use('/api/auth/projects', projectsRoute);
 app.use('/api', stacksRoute);
-app.use('/api/load', loadDataRoute);
+app.use('/api/upload', uploadDataRoute);
 
 async function start() {
   try {

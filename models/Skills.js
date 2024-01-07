@@ -2,6 +2,10 @@ import mongoose from 'mongoose';
 
 const SkillsSchema = new mongoose.Schema(
   {
+    hashId: {
+      type: String,
+      required: true,
+    },
     name: {
       type: Object,
       required: true,

@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { loadData } from '../controllers/loadDataController.js';
+import { uploadData } from '../controllers/uploadDataController.js';
 
 const router = new Router();
 
 // Endpoint для загрузки данных
-// http://localhost:3002/api/load
-router.post('/', loadData);
+// http://localhost:3002/api/upload
+router.post('/', uploadData);
 
 export default router;
