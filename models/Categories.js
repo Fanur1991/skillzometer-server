@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const CategoriesSchema = new mongoose.Schema(
   {
-    propId: {
+    categoryId: {
       type: Number,
       required: true,
     },

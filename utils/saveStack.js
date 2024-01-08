@@ -1,28 +1,9 @@
 import Stacks from '../models/Stacks.js';
 import saveCategory from './saveCategory.js';
 
-// В данной конфигурации при сохранении в БД существующая там инфа не обновляется, а просто сверху еще допом сохраняется
-// async function saveStack(stack) {
-//   const categoryIds = await Promise.all(
-//     stack.categories.map(async (category) => {
-//       return await saveCategory(category);
-//     })
-//   );
-
-//   const newStack = new Stacks({
-//     name: stack.name,
-//     desc: stack.desc,
-//     categories: categoryIds,
-//     url: stack.url,
-//   });
-//   return await newStack.save();
-// }
-
-// export default saveStack;
-
 // При это конфигурации в БД данные перезаписываются
 async function saveStack(stack) {
-  stack.categories.sort((a, b) => a.propId - b.propId);
+  stack.categories.sort((a, b) => a.categoryId - b.categoryId);
 
   // способ 1 при этом способе сортировка не работает, так как промис не выполняется синхронно для каждой категории, а они по объему информации все разные поэтому выполнятеются с разной длительностью
   // const categoryIds = await Promise.all(

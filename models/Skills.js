@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 const SkillsSchema = new mongoose.Schema(
   {
-    hashId: {
-      type: String,
+    skillId: {
+      type: Number,
       required: true,
     },
     name: {

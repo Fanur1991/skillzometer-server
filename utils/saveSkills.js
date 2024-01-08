@@ -1,56 +1,27 @@
-import crypto from 'crypto';
 import Skills from '../models/Skills.js';
+// import crypto from 'crypto';
 
-// В данной конфигурации при сохранении в БД существующая там инфа не обновляется, а просто сверху еще допом сохраняется
-// async function saveSkills(skills) {
-//   const savedSkills = await Promise.all(
-//     skills.map(async (skill) => {
-//       const newSkill = new Skills({
-//         name: skill.name,
-//         desc: skill.desc,
-//         details: skill.details,
-//         propId: uuid(),
-//       });
-//       await newSkill.save();
-//       return newSkill._id;
-//     })
-//   );
-//   return savedSkills;
+// Хэш функция для создания постоянного ip при одинаковых входных данных
+// function generateHash(name, desc) {
+//   return crypto
+//     .createHash('md5')
+//     .update(name + desc)
+//     .digest('hex');
 // }
 
-// export default saveSkills;
-
 // При это конфигурации в БД данные перезаписываются
-function generateHash(name, desc) {
-  return crypto
-    .createHash('md5')
-    .update(name + desc)
-    .digest('hex');
+async function saveSkills(skill) {
+  // const hashId = generateHash(skill.name, skill.desc);
+  const query = { skillId: skill.skillId };
+  const update = {
+    name: skill.name,
+    desc: skill.desc,
+    details: skill.details,
+    skillId: skill.skillId,
+  };
+  const options = { upsert: true, new: true, setDefaultsOnInsert: true };
+
+  const updatedSkill = await Skills.findOneAndUpdate(query, update, options);
+  return updatedSkill._id;
 }
-
-async function saveSkills(skills) {
-  const savedSkills = await Promise.all(
-    skills.map(async (skill) => {
-      const hashId = generateHash(skill.name, skill.desc);
-
-      const query = { hashId: hashId };
-      const update = {
-        name: skill.name,
-        desc: skill.desc,
-        details: skill.details,
-        hashId: hashId,
-      };
-      const options = { upsert: true, new: true, setDefaultsOnInsert: true };
-
-      const updatedSkill = await Skills.findOneAndUpdate(
-        query,
-        update,
-        options
-      );
-      return updatedSkill._id;
-    })
-  );
-  return savedSkills;
-}
-
 export default saveSkills;
