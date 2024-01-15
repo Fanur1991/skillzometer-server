@@ -9,10 +9,6 @@ export const register = async (req, res) => {
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      // return res.json({
-      //   errors: errors.array(),
-      //   message: 'Некорректные данные при регистрации',
-      // });
       return res.status(400).json({ errors: errors.array() });
     }
 
@@ -20,7 +16,7 @@ export const register = async (req, res) => {
     const isUsed = await User.findOne({ email });
 
     if (isUsed) {
-      return res.json({
+      return res.status(400).json({
         message: 'Данный email уже занят, попробуйте другой',
       });
     }
@@ -52,7 +48,6 @@ export const register = async (req, res) => {
       message: 'Регистрация прошла успешно',
     });
   } catch (error) {
-    console.log(error);
     res.status(500).json({ message: 'Не удалось зарегистрироваться' });
   }
 };
@@ -61,15 +56,15 @@ export const register = async (req, res) => {
 export const login = async (req, res) => {
   try {
     const errors = validationResult(req);
+
     if (!errors.isEmpty()) {
-      // return res.json({
-      //   errors: errors.array(),
-      //   message: 'Некорректные данные при авторизации',
-      // });
       return res.status(400).json({ errors: errors.array() });
     }
+
     const { email, password } = req.body;
+
     const authUser = await User.findOne({ email });
+
     if (!authUser) {
       return res.status(404).json({
         message: 'Пользователь не найден',
@@ -103,7 +98,6 @@ export const login = async (req, res) => {
       message: 'Вы вошли в систему',
     });
   } catch (error) {
-    console.log(error);
     res.status(500).json({ message: 'Не удалось авторизоваться' });
   }
 };

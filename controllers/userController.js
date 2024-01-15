@@ -108,8 +108,8 @@ export const changePassword = async (req, res) => {
 
     const { userId, newPassword } = req.body;
 
-    const user = await User.findById(userId);
-    if (!user) {
+    const passwordUpdUser = await User.findById(userId);
+    if (!passwordUpdUser) {
       return res.status(404).json({ message: 'Пользователь не найден' });
     }
 
@@ -117,10 +117,12 @@ export const changePassword = async (req, res) => {
     const salt = bcrypt.genSaltSync(saltRounds);
     const hashedPassword = bcrypt.hashSync(newPassword, salt);
 
-    user.passwordHash = hashedPassword;
-    await user.save();
+    passwordUpdUser.passwordHash = hashedPassword;
+    await passwordUpdUser.save();
 
-    res.json({ message: 'Пароль успешно изменен' });
+    const { passwordHash, ...user } = passwordUpdUser._doc;
+
+    res.json(user);
   } catch (error) {
     console.error('Ошибка при смене пароля:', error);
     res.status(500).json({ message: 'Ошибка при смене пароля' });

@@ -1,7 +1,7 @@
 import Skills from '../models/Skills.js';
 // import crypto from 'crypto';
 
-// Хэш функция для создания постоянного ip при одинаковых входных данных
+// Хэш функция для создания постоянного ID при одинаковых входных данных
 // function generateHash(name, desc) {
 //   return crypto
 //     .createHash('md5')

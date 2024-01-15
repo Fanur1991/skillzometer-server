@@ -1,12 +1,6 @@
 import mongoose from 'mongoose';
 
 const SkillProfileSchema = new mongoose.Schema({
-  users: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-    },
-  ],
   stacks: [
     {
       type: mongoose.Schema.Types.ObjectId,
