@@ -14,7 +14,7 @@ export const updateProfile = async (req, res) => {
     const {
       userId,
       firstname,
-      surname,
+      lastname,
       githubUrl,
       linkedinUrl,
       websiteUrl,
@@ -25,7 +25,7 @@ export const updateProfile = async (req, res) => {
       userId,
       {
         firstname,
-        surname,
+        lastname,
         githubUrl,
         linkedinUrl,
         websiteUrl,

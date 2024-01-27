@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "server": "nodemon index.js",
-    "dev": "concurrently \"npm run server\" \"npm run --prefix ../client start\""
+    "dev": "concurrently \"yarn run server\" \"cd ../client && yarn start\""
   },
   "keywords": [],
   "author": "",

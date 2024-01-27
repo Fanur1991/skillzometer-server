@@ -17,7 +17,7 @@ async function saveCategory(category) {
 
   const query = { categoryId: category.categoryId };
   const update = {
-    name: category.name,
+    title: category.title,
     desc: category.desc,
     skills: skillIds,
     categoryId: category.categoryId,

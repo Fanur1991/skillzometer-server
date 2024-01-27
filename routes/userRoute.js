@@ -10,6 +10,12 @@ import {
   passwordValidation,
 } from '../validations/userValidation.js';
 import { checkAuth } from '../utils/checkAuth.js';
+import {
+  updateCategoryRating,
+  updateStackRating,
+  updateSkillRating,
+  addUserStackRating,
+} from '../controllers/stacksController.js';
 
 const router = new Router();
 
@@ -28,5 +34,21 @@ router.delete('/delete/:userId', checkAuth, deleteProfile);
 // Change password
 // http://localhost:3002/api/auth/user/change-password
 router.post('/change-password', checkAuth, passwordValidation, changePassword);
+
+//Add user's stack rating
+// http://localhost:3002/api/auth/user/add-stack
+router.post('/add-stack', checkAuth, addUserStackRating);
+
+//Update user's stack rating
+// http://localhost:3002/api/auth/user/update-stack
+router.post('/update-stack', checkAuth, updateStackRating);
+
+//Update user's category rating
+// http://localhost:3002/api/auth/user/update-category
+router.post('/update-category', checkAuth, updateCategoryRating);
+
+//Update user's skill rating
+// http://localhost:3002/api/auth/user/update-skill
+router.post('/update-skill', checkAuth, updateSkillRating);
 
 export default router;

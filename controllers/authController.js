@@ -37,7 +37,7 @@ export const register = async (req, res) => {
         _id: newUser._id,
       },
       process.env.JWT_SECRET,
-      { expiresIn: '3h' }
+      { expiresIn: '30d' }
     );
 
     const { passwordHash, ...user } = newUser._doc;
@@ -87,7 +87,7 @@ export const login = async (req, res) => {
         _id: authUser._id,
       },
       process.env.JWT_SECRET,
-      { expiresIn: '3h' }
+      { expiresIn: '30d' }
     );
 
     const { passwordHash, ...user } = authUser._doc;

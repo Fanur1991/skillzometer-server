@@ -30,9 +30,10 @@ async function saveStack(stack) {
     Promise.resolve([])
   );
 
-  const query = { name: stack.name };
+  const query = { title: stack.title };
   const update = {
-    name: stack.name,
+    stackId: stack.stackId,
+    title: stack.title,
     desc: stack.desc,
     categories: categoryIds,
     url: stack.url,

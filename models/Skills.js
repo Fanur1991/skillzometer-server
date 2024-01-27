@@ -6,12 +6,12 @@ const SkillsSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    name: {
-      type: Object,
+    title: {
+      type: String,
       required: true,
     },
     desc: {
-      type: Object,
+      type: String,
       required: false,
     },
     details: {

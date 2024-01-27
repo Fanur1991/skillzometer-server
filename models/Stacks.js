@@ -6,12 +6,13 @@ const StacksSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    name: {
-      type: Object,
+    stackId: Number,
+    title: {
+      type: String,
       required: true,
     },
     desc: {
-      type: Object,
+      type: String,
       required: false,
     },
     categories: [

@@ -1,5 +1,37 @@
 import mongoose from 'mongoose';
 
+const SkillRatingSchema = new mongoose.Schema({
+  title: String,
+  desc: String,
+  skillId: Number,
+  rating: {
+    type: Number,
+    default: 0,
+  },
+});
+
+const CategoryRatingSchema = new mongoose.Schema({
+  title: String,
+  desc: String,
+  categoryId: Number,
+  skillsRating: [SkillRatingSchema],
+  totalRating: {
+    type: Number,
+    default: 0,
+  },
+});
+
+const StackRatingSchema = new mongoose.Schema({
+  title: String,
+  desc: String,
+  stackId: mongoose.Schema.Types.ObjectId,
+  categoriesRating: [CategoryRatingSchema],
+  totalRating: {
+    type: Number,
+    default: 0,
+  },
+});
+
 const UserSchema = new mongoose.Schema(
   {
     email: {
@@ -12,18 +44,13 @@ const UserSchema = new mongoose.Schema(
       required: true,
     },
     firstname: String,
-    surname: String,
+    lastname: String,
     githubUrl: String,
     linkedinUrl: String,
     websiteUrl: String,
     avatarUrl: String,
     projects: Array,
-    stacks: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Stacks',
-      },
-    ],
+    stacksRating: [StackRatingSchema],
   },
   {
     timestamps: true,
