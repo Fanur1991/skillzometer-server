@@ -41,6 +41,11 @@ deploy_job:
   stage: deploy
   only:
     - main
+  environment:
+    name: development
   script:
     - echo "Deploying to Docker Swarm"
-    - docker stack deploy --compose-file docker-compose-prod.yml server-skills-stack
+    - |
+      docker stack deploy --compose-file docker-compose-dev.yml \
+      --with-registry-auth server-skills-stack \
+      -c <(envsubst < docker-compose-dev.yml)
