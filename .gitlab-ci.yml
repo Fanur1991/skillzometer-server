@@ -45,5 +45,4 @@ deploy_job:
     name: development
   script:
     - echo "Deploying to Docker Swarm"
-    - |
-      docker stack deploy --compose-file docker-compose-dev.yml server-skills-stack -c <(envsubst < docker-compose-dev.yml)
+    - ocker stack deploy --compose-file docker-compose-dev.yml server-skills-stack
