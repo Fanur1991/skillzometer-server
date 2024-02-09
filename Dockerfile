@@ -14,7 +14,7 @@ RUN npm install --only=development
 COPY . .
 
 # Откройте порт, на котором запустится ваше приложение
-EXPOSE 3001
+EXPOSE 3002
 
 ENTRYPOINT ["npm"]
 

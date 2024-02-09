@@ -35,7 +35,8 @@ app.use('/api/upload', uploadDataRoute);
 async function start() {
   try {
     await mongoose.connect(
-      `mongodb://${DB_USER}:${DB_PASSWORD}@mongo:27017/${DB_NAME}?authSource=admin`
+      // `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.yqcao79.mongodb.net/${DB_NAME}`
+        `mongodb://${DB_USER}:${DB_PASSWORD}@mongo:27017/${DB_NAME}?authSource=admin`
     );
     app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
   } catch (error) {
