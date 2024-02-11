@@ -8,7 +8,7 @@ export const updateProfile = async (req, res) => {
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      return res.status(500).json({ errors: errors.array() });
+      return res.status(400).json({ message: errors.errors[0].msg });
     }
 
     const {
@@ -103,7 +103,7 @@ export const changePassword = async (req, res) => {
     const errors = validationResult(req);
 
     if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
+      return res.status(400).json({ message: errors.errors[0].msg });
     }
 
     const { userId, newPassword } = req.body;
@@ -125,6 +125,8 @@ export const changePassword = async (req, res) => {
     res.json(user);
   } catch (error) {
     console.error('Ошибка при смене пароля:', error);
-    res.status(500).json({ message: 'Ошибка при смене пароля' });
+    res
+      .status(500)
+      .json({ message: 'Ошибка при смене пароля', error: error.toString() });
   }
 };
