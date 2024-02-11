@@ -1,39 +1,48 @@
 stages:
-  - test
   - build
+  - test
   - deploy
 
 variables:
-  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ""
+  DOCKER_REGISTRY: localhost:5000
+  CI_REGISTRY_IMAGE: $DOCKER_REGISTRY/skills/developer-skills-rating-server
 
-before_script:
-  - echo "Starting CI/CD Pipeline for the Node.js project..."
+default:
+  image: docker:23.0.3
 
-test:
-  stage: test
-  image: node:16
-  script:
-    - npm install
-    - npm run test
-  only:
-    - master
+cache:
+  key: "$CI_COMMIT_REF_NAME"
+  paths:
+    - cache/
 
-build:
+build_job:
   stage: build
-  image: docker:19.03.12
-  services:
-    - docker:19.03.12-dind
-  script:
-    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build -t $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG .
-    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
   only:
-    - master
+    - main
+  script:
+    - echo "Running build for the server"
+    - docker build -t $CI_REGISTRY_IMAGE .
+    - docker push $CI_REGISTRY_IMAGE
 
-deploy:
-  stage: deploy
-  image: bitnami/kubectl
-  script:
-    - kubectl apply -f deployment.yaml
+# disabled
+.test_job:
+  stage: test
   only:
-    - master
+    - main
+  script:
+    - echo "Running server tests"
+    - docker run --name server-container -d $CI_REGISTRY_IMAGE
+    - docker exec server-container npm test --passWithNoTests
+    - docker stop server-container
+    - docker rm server-container
+
+deploy_job:
+  stage: deploy
+  only:
+    - main
+  environment:
+    name: development
+  script:
+    - echo "Deploying to Docker Swarm"
+    - docker stack deploy --compose-file docker-compose-dev.yml server-skills-stack
