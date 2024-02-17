@@ -24,7 +24,7 @@ const CategoryRatingSchema = new mongoose.Schema({
 const StackRatingSchema = new mongoose.Schema({
   title: String,
   desc: String,
-  stackId: mongoose.Schema.Types.ObjectId,
+  stackId: Number,
   categoriesRating: [CategoryRatingSchema],
   totalRating: {
     type: Number,

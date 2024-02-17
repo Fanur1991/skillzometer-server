@@ -38,7 +38,7 @@ export const addUserStackRating = async (req, res) => {
 
 export const updateStackRating = async (req, res) => {
   try {
-    const { userId, stackId, stackRating } = req.body;
+    const { userId, _id, stackRating } = req.body;
 
     const currUser = await User.findById(userId);
 
@@ -46,7 +46,7 @@ export const updateStackRating = async (req, res) => {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const stack = currUser.stacksRating.find((s) => s.stackId.equals(stackId));
+    const stack = currUser.stacksRating.find((s) => s._id.equals(_id));
     if (!stack) {
       return res.status(404).json({ message: 'Stack not found' });
     }
@@ -80,21 +80,21 @@ export const fetchCategories = async (req, res) => {
 
 export const updateCategoryRating = async (req, res) => {
   try {
-    const { userId, stackId, categoryId, categoryRating } = req.body;
+    const { userId, _id, categoryId, categoryRating } = req.body;
 
     const currUser = await User.findById(userId);
     if (!currUser) {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const stack = currUser.stacksRating.find((s) => s.stackId.equals(stackId));
+    const stack = currUser.stacksRating.find((s) => s._id.equals(_id));
     if (!stack) {
       return res.status(404).json({ message: 'Stack not found' });
     }
 
-    const category = stack.categoriesRating.find((c) =>
-      c.categoryId.equals(categoryId)
-    );
+    const category = stack.categoriesRating.find((c) => {
+      return c.categoryId === categoryId;
+    });
 
     if (!category) {
       return res.status(404).json({ message: 'Category not found' });
@@ -113,6 +113,7 @@ export const updateCategoryRating = async (req, res) => {
 
     res.status(200).json({ user });
   } catch (error) {
+    console.log(error);
     res.status(500).json(error.message);
   }
 };
@@ -134,26 +135,28 @@ export const fetchSkills = async (req, res) => {
 
 export const updateSkillRating = async (req, res) => {
   try {
-    const { userId, stackId, categoryId, skillId, skillRating } = req.body;
+    const { userId, _id, categoryId, skillId, skillRating } = req.body;
+
+    console.log('skillId', skillId);
 
     const currUser = await User.findById(userId);
-    if (!user) {
+    if (!currUser) {
       return res.status(404).json({ message: 'User not found' });
     }
 
-    const stack = currUser.stacksRating.find((s) => s.stackId.equals(stackId));
+    const stack = currUser.stacksRating.find((s) => s._id.equals(_id));
     if (!stack) {
       return res.status(404).json({ message: 'Stack not found' });
     }
 
-    const category = stack.categoriesRating.find((c) =>
-      c.categoryId.equals(categoryId)
+    const category = stack.categoriesRating.find(
+      (c) => c.categoryId === categoryId
     );
     if (!category) {
       return res.status(404).json({ message: 'Category not found' });
     }
 
-    const skill = category.skillsRating.find((s) => s.skillId.equals(skillId));
+    const skill = category.skillsRating.find((s) => s.skillId === skillId);
     if (skill) {
       skill.rating = skillRating;
     } else {

@@ -11,7 +11,7 @@
         "desc": "Core knowledge and skills related to internet technologies",
         "skills": [
           {
-            "skillId": 10041,
+            "skillId": 10001,
             "title": "HTTP/HTTPS Protocols",
             "desc": "Understanding the foundation of data communication on the web.",
             "details": [
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "skillId": 10042,
+            "skillId": 10002,
             "title": "DNS and Web Hosting",
             "desc": "Knowledge of how domain names are resolved and websites are hosted.",
             "details": [
@@ -32,7 +32,7 @@
             ]
           },
           {
-            "skillId": 10043,
+            "skillId": 10003,
             "title": "Web Security Basics",
             "desc": "Fundamental concepts in web security.",
             "details": [
@@ -43,7 +43,7 @@
             ]
           },
           {
-            "skillId": 10044,
+            "skillId": 10004,
             "title": "Web Performance Optimization",
             "desc": "Techniques to improve the performance of web applications.",
             "details": [
@@ -54,7 +54,7 @@
             ]
           },
           {
-            "skillId": 10045,
+            "skillId": 10005,
             "title": "SEO Fundamentals",
             "desc": "Basic principles of Search Engine Optimization.",
             "details": [
@@ -65,7 +65,7 @@
             ]
           },
           {
-            "skillId": 10046,
+            "skillId": 10006,
             "title": "APIs",
             "desc": "Working with Application Programming Interfaces.",
             "details": [
@@ -76,7 +76,7 @@
             ]
           },
           {
-            "skillId": 10047,
+            "skillId": 10007,
             "title": "Web Accessibility",
             "desc": "Principles and practices for making web content accessible.",
             "details": [
@@ -94,13 +94,13 @@
         "desc": "Hyper Text Markup Language",
         "skills": [
           {
-            "skillId": 10048,
+            "skillId": 10008,
             "title": "Semantic",
             "desc": "A semantic element clearly describes its meaning to both the browser and the developer.",
             "details": ["header", "nav", "article", "section", "footer"]
           },
           {
-            "skillId": 10049,
+            "skillId": 10009,
             "title": "Accessibility",
             "desc": "Provide the user a good way to navigate and interact with your site.",
             "details": [
@@ -110,49 +110,49 @@
             ]
           },
           {
-            "skillId": 100410,
+            "skillId": 100010,
             "title": "Forms and Input Types",
             "desc": "Understanding of various form elements and input types for effective data collection.",
             "details": ["<input>", "<form>", "Validation attributes"]
           },
           {
-            "skillId": 100411,
+            "skillId": 100011,
             "title": "SEO Basics",
             "desc": "Basic principles of Search Engine Optimization to improve website visibility.",
             "details": ["Meta tags", "Heading structure", "Keywords"]
           },
           {
-            "skillId": 100412,
+            "skillId": 100012,
             "title": "Multimedia Content",
             "desc": "Embedding and managing multimedia content like images, videos, and audio.",
             "details": ["<img>", "<video>", "<audio>"]
           },
           {
-            "skillId": 100413,
+            "skillId": 100013,
             "title": "Responsive Images",
             "desc": "Techniques for creating images that work well on devices with different resolutions.",
             "details": ["srcset", "sizes"]
           },
           {
-            "skillId": 100414,
+            "skillId": 100014,
             "title": "HTML5 APIs",
             "desc": "Utilizing HTML5 APIs for enhanced functionality.",
             "details": ["Canvas API", "Geolocation API", "Drag and Drop API"]
           },
           {
-            "skillId": 100415,
+            "skillId": 100015,
             "title": "Linking External Resources",
             "desc": "Linking external CSS files, scripts, and other resources.",
             "details": ["<link>", "<script>", "Lazy loading"]
           },
           {
-            "skillId": 100416,
+            "skillId": 100016,
             "title": "Data Attributes",
             "desc": "Using data attributes for storing custom data on standard HTML elements.",
             "details": ["data-*"]
           },
           {
-            "skillId": 100417,
+            "skillId": 100017,
             "title": "HTML Templates",
             "desc": "Using HTML templates for dynamic content generation.",
             "details": ["<template>", "Slot"]
@@ -165,69 +165,46 @@
         "desc": "Cascading Style Sheets",
         "skills": [
           {
-            "skillId": 100418,
+            "skillId": 100018,
             "title": "Layouts",
             "desc": "Creating page layouts with CSS.",
             "details": ["Flexbox", "Grid"]
           },
           {
-            "skillId": 100419,
+            "skillId": 100019,
             "title": "Responsive Design",
             "desc": "Ensuring the website looks good on various devices.",
             "details": ["Media queries", "Viewport units"]
           },
           {
-            "skillId": 100420,
-            "title": "CSS Preprocessors",
-            "desc": "Using tools like Sass or Less to enhance CSS.",
-            "details": ["Sass", "Less"]
-          },
-          {
-            "skillId": 100421,
+            "skillId": 100020,
             "title": "CSS Animations and Transitions",
             "desc": "Creating interactive and engaging user interfaces with animations and transitions.",
             "details": ["@keyframes", "transition", "animation"]
           },
           {
-            "skillId": 100422,
+            "skillId": 100021,
             "title": "CSS Variables",
             "desc": "Using CSS custom properties for efficient style management.",
             "details": ["--var-title"]
           },
           {
-            "skillId": 100423,
+            "skillId": 100022,
             "title": "Cross-Browser Compatibility",
             "desc": "Ensuring that styles work consistently across different browsers.",
             "details": ["Vendor prefixes", "Feature detection"]
           },
           {
-            "skillId": 100424,
+            "skillId": 100023,
             "title": "Typography",
             "desc": "Styling and manipulating text for readability and aesthetic appeal.",
             "details": ["font-family", "line-height", "text-transform"]
           },
           {
-            "skillId": 100425,
+            "skillId": 100024,
             "title": "Pseudo-Classes and Pseudo-Elements",
             "desc": "Using pseudo-classes and pseudo-elements for advanced styling.",
             "details": [":hover", "::before", "::after"]
-          },
-          {
-            "skillId": 100426,
-            "title": "CSS Frameworks",
-            "desc": "Utilizing CSS frameworks for rapid UI development.",
-            "details": [
-              "Ant Design",
-              "Bootstrap",
-              "Tailwind CSS",
-              "Materialize"
-            ]
-          },
-          {
-            "skillId": 100427,
-            "title": "CSS Methodologies",
-            "desc": "Implementing CSS methodologies for scalable and maintainable codebases.",
-            "details": ["BEM", "OOCSS", "SMACSS"]
           }
         ]
       },
@@ -237,7 +214,7 @@
         "desc": "Programming language for the web",
         "skills": [
           {
-            "skillId": 100428,
+            "skillId": 100025,
             "title": "ES6+ Features",
             "desc": "Using the latest features of ECMAScript.",
             "details": [
@@ -261,30 +238,30 @@
             ]
           },
           {
-            "skillId": 100429,
+            "skillId": 100026,
             "title": "Promises and Async/Await",
             "desc": "Handling asynchronous operations in JavaScript.",
             "details": ["Promises", "Async functions", "Error Handling"]
           },
           {
-            "skillId": 100430,
+            "skillId": 100027,
             "title": "WebSockets",
             "desc": "Real-time communication between clients and servers."
           },
           {
-            "skillId": 100431,
+            "skillId": 100028,
             "title": "Frontend Frameworks",
             "desc": "Using frameworks like React, Vue.js, or Angular for building user interfaces.",
             "details": ["React", "Vue.js", "Angular", "Svelte"]
           },
           {
-            "skillId": 100432,
+            "skillId": 100029,
             "title": "State Management",
             "desc": "Managing application state in complex apps.",
             "details": ["Redux", "Vuex", "Context API"]
           },
           {
-            "skillId": 100433,
+            "skillId": 100030,
             "title": "DOM Manipulation",
             "desc": "Interacting with the Document Object Model (DOM).",
             "details": [
@@ -302,7 +279,7 @@
             ]
           },
           {
-            "skillId": 100434,
+            "skillId": 100031,
             "title": "APIs and HTTP Requests",
             "desc": "Working with APIs and handling HTTP requests.",
             "details": [
@@ -323,19 +300,19 @@
             ]
           },
           {
-            "skillId": 100435,
+            "skillId": 100032,
             "title": "Testing",
             "desc": "Writing and maintaining tests for JavaScript code.",
             "details": ["Jest", "Mocha", "Chai"]
           },
           {
-            "skillId": 100436,
+            "skillId": 100033,
             "title": "Debugging",
             "desc": "Techniques and tools for debugging JavaScript.",
             "details": ["Chrome DevTools", "Console Methods", "Source Maps"]
           },
           {
-            "skillId": 100437,
+            "skillId": 100034,
             "title": "Performance Optimization",
             "desc": "Improving the performance of JavaScript applications.",
             "details": [
@@ -357,7 +334,7 @@
             ]
           },
           {
-            "skillId": 100438,
+            "skillId": 100035,
             "title": "Security",
             "desc": "Understanding common security pitfalls and protections in JavaScript.",
             "details": [
@@ -386,49 +363,49 @@
         "desc": "GIT",
         "skills": [
           {
-            "skillId": 100439,
+            "skillId": 100036,
             "title": "Basic Operations",
             "desc": "Clone, commit, push, pull.",
             "details": ["git clone", "git commit", "git push", "git pull"]
           },
           {
-            "skillId": 100440,
+            "skillId": 100037,
             "title": "Branching and Merging",
             "desc": "Creating branches, merging changes.",
             "details": ["git branch", "git merge", "git checkout"]
           },
           {
-            "skillId": 100441,
+            "skillId": 100038,
             "title": "Conflict Resolution",
             "desc": "Managing and resolving merge conflicts.",
             "details": ["Merge tools", "Conflict markers"]
           },
           {
-            "skillId": 100442,
+            "skillId": 100039,
             "title": "Stashing and Tagging",
             "desc": "Managing changes temporarily and marking specific points in history.",
             "details": ["git stash", "git tag"]
           },
           {
-            "skillId": 100443,
+            "skillId": 100040,
             "title": "Remote Repositories",
             "desc": "Working with remote repositories.",
             "details": ["git remote", "git fetch", "Pull Requests"]
           },
           {
-            "skillId": 100444,
+            "skillId": 100041,
             "title": "Advanced GIT Features",
             "desc": "Using advanced features of GIT for efficient workflow.",
             "details": ["Rebasing", "Cherry-picking", "Interactive Rebase"]
           },
           {
-            "skillId": 100445,
+            "skillId": 100042,
             "title": "GIT Hooks",
             "desc": "Automating tasks with GIT hooks.",
             "details": ["pre-commit", "post-merge"]
           },
           {
-            "skillId": 100446,
+            "skillId": 100043,
             "title": "GIT Workflows",
             "desc": "Understanding and implementing GIT workflows.",
             "details": [
@@ -436,12 +413,6 @@
               "Gitflow Workflow",
               "Forking Workflow"
             ]
-          },
-          {
-            "skillId": 100447,
-            "title": "Version Control Best Practices",
-            "desc": "Adhering to best practices for version control.",
-            "details": ["Commit messages", "Branch management", "Code review"]
           }
         ]
       },
@@ -451,7 +422,7 @@
         "desc": "Platforms and skills for hosting and managing code repositories",
         "skills": [
           {
-            "skillId": 100448,
+            "skillId": 100044,
             "title": "GitHub",
             "desc": "The most popular platform for hosting Git repositories.",
             "details": [
@@ -463,7 +434,7 @@
             ]
           },
           {
-            "skillId": 100449,
+            "skillId": 100045,
             "title": "GitLab",
             "desc": "A web-based DevOps lifecycle tool that provides a Git repository manager.",
             "details": [
@@ -475,7 +446,7 @@
             ]
           },
           {
-            "skillId": 100450,
+            "skillId": 100046,
             "title": "Bitbucket",
             "desc": "A web-based version control repository hosting service owned by Atlassian.",
             "details": [
@@ -487,7 +458,7 @@
             ]
           },
           {
-            "skillId": 100451,
+            "skillId": 100047,
             "title": "SourceForge",
             "desc": "A web-based service that offers software developers a centralized online location to control and manage free and open-source software projects.",
             "details": [
@@ -498,7 +469,7 @@
             ]
           },
           {
-            "skillId": 100452,
+            "skillId": 100048,
             "title": "Collaboration and Teamwork",
             "desc": "Skills related to effectively collaborating on code hosting platforms.",
             "details": [
@@ -516,7 +487,7 @@
         "desc": "npm, Yarn",
         "skills": [
           {
-            "skillId": 100453,
+            "skillId": 100049,
             "title": "Dependency Management",
             "desc": "Installing, updating, and managing project dependencies.",
             "details": [
@@ -527,43 +498,43 @@
             ]
           },
           {
-            "skillId": 100454,
+            "skillId": 100050,
             "title": "Scripting",
             "desc": "Automating tasks using scripts in package managers.",
             "details": ["npm scripts", "Yarn scripts", "Custom scripts"]
           },
           {
-            "skillId": 100455,
+            "skillId": 100051,
             "title": "Package Publishing",
             "desc": "Publishing packages to npm or Yarn registries.",
             "details": ["Versioning", "Publishing", "Maintaining packages"]
           },
           {
-            "skillId": 100456,
+            "skillId": 100052,
             "title": "Security and Auditing",
             "desc": "Ensuring the security of dependencies and auditing them.",
             "details": ["npm audit", "Yarn audit", "Dependency checking"]
           },
           {
-            "skillId": 100457,
+            "skillId": 100053,
             "title": "Package Locking",
             "desc": "Understanding and using package-lock.json and yarn.lock for consistent dependency resolution.",
             "details": ["package-lock.json", "yarn.lock"]
           },
           {
-            "skillId": 100458,
+            "skillId": 100054,
             "title": "Private Registries",
             "desc": "Working with private or custom package registries.",
             "details": ["npm Enterprise", "Yarn private registries"]
           },
           {
-            "skillId": 100459,
+            "skillId": 100055,
             "title": "Performance Optimization",
             "desc": "Optimizing package installation and loading.",
             "details": ["Caching", "Parallel installation"]
           },
           {
-            "skillId": 100460,
+            "skillId": 100056,
             "title": "Troubleshooting",
             "desc": "Resolving common issues with package managers.",
             "details": [
@@ -580,7 +551,7 @@
         "desc": "A JavaScript library for building user interfaces",
         "skills": [
           {
-            "skillId": 100461,
+            "skillId": 100057,
             "title": "JSX",
             "desc": "JavaScript XML syntax used in React for defining UI components.",
             "details": [
@@ -591,7 +562,7 @@
             ]
           },
           {
-            "skillId": 100462,
+            "skillId": 100058,
             "title": "Hooks",
             "desc": "Functions for managing state and lifecycle in functional components.",
             "details": [
@@ -602,7 +573,7 @@
             ]
           },
           {
-            "skillId": 100463,
+            "skillId": 100059,
             "title": "Context API",
             "desc": "Provides a way to pass data through the component tree without having to pass props down manually at every level.",
             "details": [
@@ -613,7 +584,7 @@
             ]
           },
           {
-            "skillId": 100464,
+            "skillId": 100060,
             "title": "React Router",
             "desc": "Declarative routing for React applications.",
             "details": [
@@ -624,7 +595,7 @@
             ]
           },
           {
-            "skillId": 100465,
+            "skillId": 100061,
             "title": "Higher-Order Components",
             "desc": "A technique in React for reusing component logic.",
             "details": [
@@ -635,7 +606,7 @@
             ]
           },
           {
-            "skillId": 100466,
+            "skillId": 100062,
             "title": "State and Lifecycle",
             "desc": "Managing state and lifecycle events in class components.",
             "details": [
@@ -646,7 +617,7 @@
             ]
           },
           {
-            "skillId": 100467,
+            "skillId": 100063,
             "title": "Performance Optimization",
             "desc": "Techniques for optimizing React applications, including memoization and shouldComponentUpdate.",
             "details": [
@@ -657,7 +628,7 @@
             ]
           },
           {
-            "skillId": 100468,
+            "skillId": 100064,
             "title": "Testing",
             "desc": "Writing and maintaining tests using tools like Jest and React Testing Library.",
             "details": [
@@ -675,7 +646,7 @@
         "desc": "A progressive framework for building user interfaces",
         "skills": [
           {
-            "skillId": 100469,
+            "skillId": 100065,
             "title": "Vue CLI",
             "desc": "Standard tooling for Vue.js development.",
             "details": [
@@ -686,7 +657,7 @@
             ]
           },
           {
-            "skillId": 100470,
+            "skillId": 100066,
             "title": "Reactive Data Binding",
             "desc": "Automatically updating the DOM when the state changes.",
             "details": [
@@ -697,7 +668,7 @@
             ]
           },
           {
-            "skillId": 100471,
+            "skillId": 100067,
             "title": "Vuex",
             "desc": "State management pattern and library for Vue.js applications.",
             "details": [
@@ -708,7 +679,7 @@
             ]
           },
           {
-            "skillId": 100472,
+            "skillId": 100068,
             "title": "Vue Router",
             "desc": "The official router for Vue.js, used for navigating between pages.",
             "details": [
@@ -719,7 +690,7 @@
             ]
           },
           {
-            "skillId": 100473,
+            "skillId": 100069,
             "title": "Single File Components",
             "desc": "A Vue.js specific file format for writing HTML, CSS, and JavaScript in one file.",
             "details": [
@@ -730,7 +701,7 @@
             ]
           },
           {
-            "skillId": 100474,
+            "skillId": 100070,
             "title": "Component Lifecycle",
             "desc": "Understanding and using Vue.js lifecycle hooks.",
             "details": [
@@ -741,7 +712,7 @@
             ]
           },
           {
-            "skillId": 100475,
+            "skillId": 100071,
             "title": "Mixins",
             "desc": "A flexible way to distribute reusable functionalities for Vue components.",
             "details": [
@@ -752,7 +723,7 @@
             ]
           },
           {
-            "skillId": 100476,
+            "skillId": 100072,
             "title": "Testing",
             "desc": "Using Vue Test Utils and Jest for testing Vue.js applications.",
             "details": [
@@ -770,7 +741,7 @@
         "desc": "A platform and framework for building single-page client applications",
         "skills": [
           {
-            "skillId": 100477,
+            "skillId": 100073,
             "title": "TypeScript",
             "desc": "A primary language for Angular development, offering types and class-based syntax.",
             "details": [
@@ -781,7 +752,7 @@
             ]
           },
           {
-            "skillId": 100478,
+            "skillId": 100074,
             "title": "Angular CLI",
             "desc": "Command Line Interface for Angular, used for generating, developing, and testing Angular applications.",
             "details": [
@@ -792,7 +763,7 @@
             ]
           },
           {
-            "skillId": 100479,
+            "skillId": 100075,
             "title": "RxJS and Observables",
             "desc": "Asynchronous programming with observable streams in Angular.",
             "details": [
@@ -803,7 +774,7 @@
             ]
           },
           {
-            "skillId": 100480,
+            "skillId": 100076,
             "title": "Services and Dependency Injection",
             "desc": "Core concepts in Angular for sharing data and functionality between components.",
             "details": [
@@ -814,7 +785,7 @@
             ]
           },
           {
-            "skillId": 100481,
+            "skillId": 100077,
             "title": "Angular Modules and Routing",
             "desc": "Organizing code into cohesive blocks and implementing navigation.",
             "details": [
@@ -825,7 +796,7 @@
             ]
           },
           {
-            "skillId": 100482,
+            "skillId": 100078,
             "title": "Component and Data Binding",
             "desc": "Creating interactive components and binding data to templates.",
             "details": [
@@ -836,7 +807,7 @@
             ]
           },
           {
-            "skillId": 100483,
+            "skillId": 100079,
             "title": "Forms",
             "desc": "Building and validating user input forms in Angular.",
             "details": [
@@ -847,7 +818,7 @@
             ]
           },
           {
-            "skillId": 100484,
+            "skillId": 100080,
             "title": "Testing",
             "desc": "Testing Angular applications using Jasmine and Karma.",
             "details": [
@@ -865,7 +836,7 @@
         "desc": "A modern compiler-based JavaScript framework for building user interfaces",
         "skills": [
           {
-            "skillId": 100485,
+            "skillId": 100081,
             "title": "Component Basics",
             "desc": "Creating and using Svelte components.",
             "details": [
@@ -875,13 +846,13 @@
             ]
           },
           {
-            "skillId": 100486,
+            "skillId": 100082,
             "title": "Reactivity",
             "desc": "Understanding Svelte's unique reactivity model.",
             "details": ["Reactive Statements", "Reactive Variables", "Bindings"]
           },
           {
-            "skillId": 100487,
+            "skillId": 100083,
             "title": "Compilation and Build Process",
             "desc": "Understanding how Svelte compiles applications.",
             "details": [
@@ -891,7 +862,7 @@
             ]
           },
           {
-            "skillId": 100488,
+            "skillId": 100084,
             "title": "Advanced Features",
             "desc": "Using Svelte's advanced features for complex applications.",
             "details": [
@@ -901,7 +872,7 @@
             ]
           },
           {
-            "skillId": 100489,
+            "skillId": 100085,
             "title": "SvelteKit",
             "desc": "Building full-stack applications using SvelteKit.",
             "details": [
@@ -911,23 +882,13 @@
             ]
           },
           {
-            "skillId": 100490,
+            "skillId": 100086,
             "title": "Testing and Debugging",
             "desc": "Testing and debugging Svelte applications.",
             "details": [
               "Unit Testing",
               "Integration Testing",
               "Debugging Techniques"
-            ]
-          },
-          {
-            "skillId": 100491,
-            "title": "Best Practices",
-            "desc": "Adhering to best practices in Svelte development.",
-            "details": [
-              "Code Organization",
-              "Performance Best Practices",
-              "Accessibility Considerations"
             ]
           }
         ]
@@ -938,7 +899,7 @@
         "desc": "A declarative, efficient, and flexible JavaScript library for building user interfaces",
         "skills": [
           {
-            "skillId": 100492,
+            "skillId": 100087,
             "title": "Reactive Primitives",
             "desc": "Understanding and using Solid's core reactivity model.",
             "details": [
@@ -948,7 +909,7 @@
             ]
           },
           {
-            "skillId": 100493,
+            "skillId": 100088,
             "title": "Component Design",
             "desc": "Creating and structuring Solid components.",
             "details": [
@@ -958,7 +919,7 @@
             ]
           },
           {
-            "skillId": 100494,
+            "skillId": 100089,
             "title": "JSX and Templating",
             "desc": "Using JSX for templating in Solid.",
             "details": [
@@ -968,7 +929,7 @@
             ]
           },
           {
-            "skillId": 100495,
+            "skillId": 100090,
             "title": "State Management",
             "desc": "Managing application state in Solid.",
             "details": [
@@ -978,7 +939,7 @@
             ]
           },
           {
-            "skillId": 100496,
+            "skillId": 100091,
             "title": "Advanced Concepts",
             "desc": "Leveraging advanced features of Solid.",
             "details": [
@@ -988,7 +949,7 @@
             ]
           },
           {
-            "skillId": 100497,
+            "skillId": 100092,
             "title": "Ecosystem and Tooling",
             "desc": "Utilizing Solid's ecosystem and development tools.",
             "details": [
@@ -998,23 +959,13 @@
             ]
           },
           {
-            "skillId": 100498,
+            "skillId": 100093,
             "title": "Testing and Debugging",
             "desc": "Approaches to testing and debugging in Solid.",
             "details": [
               "Unit Testing",
               "Integration Testing",
               "Performance Testing"
-            ]
-          },
-          {
-            "skillId": 100499,
-            "title": "Best Practices",
-            "desc": "Following best practices in Solid development.",
-            "details": [
-              "Performance Optimization",
-              "Code Organization and Structure",
-              "Accessibility Considerations"
             ]
           }
         ]
@@ -1025,7 +976,7 @@
         "desc": "A web framework designed for the fastest possible load times",
         "skills": [
           {
-            "skillId": 1004100,
+            "skillId": 100094,
             "title": "Lazy Loading",
             "desc": "Implementing Qwik's efficient lazy loading strategy.",
             "details": [
@@ -1035,7 +986,7 @@
             ]
           },
           {
-            "skillId": 1004101,
+            "skillId": 100095,
             "title": "State Management",
             "desc": "Managing application state in a Qwik application.",
             "details": [
@@ -1045,7 +996,7 @@
             ]
           },
           {
-            "skillId": 1004102,
+            "skillId": 100096,
             "title": "Qwik Optimizer",
             "desc": "Utilizing Qwik Optimizer for efficient bundling and loading.",
             "details": [
@@ -1055,7 +1006,7 @@
             ]
           },
           {
-            "skillId": 1004103,
+            "skillId": 100097,
             "title": "Server-Side Rendering (SSR)",
             "desc": "Implementing SSR in Qwik for improved performance.",
             "details": [
@@ -1065,7 +1016,7 @@
             ]
           },
           {
-            "skillId": 1004104,
+            "skillId": 100098,
             "title": "Component Model",
             "desc": "Understanding and using Qwik's component model.",
             "details": [
@@ -1075,7 +1026,7 @@
             ]
           },
           {
-            "skillId": 1004105,
+            "skillId": 100099,
             "title": "SEO and Accessibility",
             "desc": "Ensuring Qwik applications are SEO-friendly and accessible.",
             "details": [
@@ -1085,23 +1036,13 @@
             ]
           },
           {
-            "skillId": 1004106,
+            "skillId": 1000100,
             "title": "Testing and Debugging",
             "desc": "Approaches to testing and debugging in Qwik.",
             "details": [
               "Unit and Integration Testing",
               "Debugging Performance Issues",
               "End-to-End Testing Strategies"
-            ]
-          },
-          {
-            "skillId": 1004107,
-            "title": "Best Practices",
-            "desc": "Following best practices in Qwik development.",
-            "details": [
-              "Performance Optimization",
-              "Code Organization and Structure",
-              "Collaboration and Version Control"
             ]
           }
         ]
@@ -1112,7 +1053,7 @@
         "desc": "Tailwind CSS, Bootstrap, Ant Design",
         "skills": [
           {
-            "skillId": 1004108,
+            "skillId": 1000101,
             "title": "Tailwind CSS",
             "desc": "A utility-first CSS framework for rapid UI development.",
             "details": [
@@ -1124,7 +1065,7 @@
             ]
           },
           {
-            "skillId": 1004109,
+            "skillId": 1000102,
             "title": "Bootstrap",
             "desc": "The most popular HTML, CSS, and JS library in the world.",
             "details": [
@@ -1136,7 +1077,7 @@
             ]
           },
           {
-            "skillId": 1004110,
+            "skillId": 1000103,
             "title": "Ant Design",
             "desc": "An enterprise-class UI design language and React-based implementation.",
             "details": [
@@ -1148,7 +1089,7 @@
             ]
           },
           {
-            "skillId": 1004111,
+            "skillId": 1000104,
             "title": "General Skills",
             "desc": "General skills applicable to working with CSS frameworks.",
             "details": [
@@ -1166,7 +1107,7 @@
         "desc": "BEM and other methodologies",
         "skills": [
           {
-            "skillId": 1004112,
+            "skillId": 1000105,
             "title": "Block Element Modifier (BEM)",
             "desc": "A methodology for naming and organizing CSS classes.",
             "details": [
@@ -1177,7 +1118,7 @@
             ]
           },
           {
-            "skillId": 1004113,
+            "skillId": 1000106,
             "title": "Object-Oriented CSS (OOCSS)",
             "desc": "A methodology for writing CSS that's focused on object-oriented principles.",
             "details": [
@@ -1187,13 +1128,13 @@
             ]
           },
           {
-            "skillId": 1004114,
+            "skillId": 1000107,
             "title": "SMACSS (Scalable and Modular Architecture for CSS)",
             "desc": "A style guide for organizing CSS into flexible and maintainable architecture.",
             "details": ["Categorization", "State Rules", "Scalability"]
           },
           {
-            "skillId": 1004115,
+            "skillId": 1000108,
             "title": "Atomic CSS",
             "desc": "A methodology that involves breaking down styles into atomic, or indivisible, pieces.",
             "details": ["Single Responsibility", "Composability", "Maintenance"]
@@ -1206,7 +1147,7 @@
         "desc": "Tools that extend CSS with variables, mixins, and more to write maintainable and scalable stylesheets",
         "skills": [
           {
-            "skillId": 1004116,
+            "skillId": 1000109,
             "title": "Sass/SCSS",
             "desc": "A preprocessor scripting language that is interpreted or compiled into CSS.",
             "details": [
@@ -1218,7 +1159,7 @@
             ]
           },
           {
-            "skillId": 1004117,
+            "skillId": 1000110,
             "title": "Less",
             "desc": "A backward-compatible language extension for CSS.",
             "details": [
@@ -1230,7 +1171,7 @@
             ]
           },
           {
-            "skillId": 1004118,
+            "skillId": 1000111,
             "title": "Stylus",
             "desc": "A preprocessor that allows for more expressive, dynamic, and robust CSS.",
             "details": [
@@ -1242,7 +1183,7 @@
             ]
           },
           {
-            "skillId": 1004119,
+            "skillId": 1000112,
             "title": "PostCSS",
             "desc": "A tool for transforming CSS with JavaScript plugins.",
             "details": [
@@ -1251,17 +1192,6 @@
               "Future CSS Syntax",
               "Linting and Optimization",
               "Modular Architecture"
-            ]
-          },
-          {
-            "skillId": 1004120,
-            "title": "Best Practices",
-            "desc": "Following best practices in using CSS preprocessors.",
-            "details": [
-              "Code Organization and Structure",
-              "Performance Considerations",
-              "Maintainability and Scalability",
-              "Integration with Frameworks and Build Tools"
             ]
           }
         ]
@@ -1272,7 +1202,7 @@
         "desc": "Tools for bundling web assets for optimized performance and organization",
         "skills": [
           {
-            "skillId": 1004121,
+            "skillId": 1000113,
             "title": "Webpack",
             "desc": "A highly configurable module bundler for modern JavaScript applications.",
             "details": [
@@ -1284,7 +1214,7 @@
             ]
           },
           {
-            "skillId": 1004122,
+            "skillId": 1000114,
             "title": "Rollup",
             "desc": "A module bundler for JavaScript which compiles small pieces of code into something larger and more complex.",
             "details": [
@@ -1296,7 +1226,7 @@
             ]
           },
           {
-            "skillId": 1004100,
+            "skillId": 1000115,
             "title": "Parcel",
             "desc": "A web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.",
             "details": [
@@ -1308,7 +1238,7 @@
             ]
           },
           {
-            "skillId": 1004124,
+            "skillId": 1000116,
             "title": "Browserify",
             "desc": "A tool for compiling node-flavored commonjs modules for the browser.",
             "details": [
@@ -1319,7 +1249,7 @@
             ]
           },
           {
-            "skillId": 1004125,
+            "skillId": 1000117,
             "title": "Vite",
             "desc": "A modern frontend build tool that significantly improves the frontend development experience.",
             "details": [
@@ -1328,17 +1258,6 @@
               "Out-of-the-Box TypeScript and JSX Support",
               "Rich Plugin Interface and API",
               "Optimized Build with Rollup"
-            ]
-          },
-          {
-            "skillId": 1004126,
-            "title": "Best Practices",
-            "desc": "Following best practices in using module bundlers.",
-            "details": [
-              "Performance Optimization",
-              "Maintainable Configuration",
-              "Cross-Platform Compatibility",
-              "Integration with Development Workflow"
             ]
           }
         ]
@@ -1349,7 +1268,7 @@
         "desc": "Tools for automating development tasks and workflows",
         "skills": [
           {
-            "skillId": 1004127,
+            "skillId": 1000118,
             "title": "Gulp",
             "desc": "A toolkit to automate & enhance your workflow.",
             "details": [
@@ -1361,7 +1280,7 @@
             ]
           },
           {
-            "skillId": 1004128,
+            "skillId": 1000119,
             "title": "Grunt",
             "desc": "A JavaScript task runner for automating repetitive tasks.",
             "details": [
@@ -1373,7 +1292,7 @@
             ]
           },
           {
-            "skillId": 1004129,
+            "skillId": 1000120,
             "title": "npm scripts",
             "desc": "Using npm's built-in script runner to automate tasks.",
             "details": [
@@ -1382,17 +1301,6 @@
               "Cross-Platform Scripting",
               "Integrating with Other Tools and Task Runners",
               "Simplifying Complex Tasks with npm-run-all"
-            ]
-          },
-          {
-            "skillId": 1004130,
-            "title": "Best Practices",
-            "desc": "Following best practices in task automation.",
-            "details": [
-              "Maintainable Task Configuration",
-              "Efficient Task Execution",
-              "Error Handling and Logging",
-              "Integrating with Continuous Integration/Continuous Deployment (CI/CD)"
             ]
           }
         ]
@@ -1403,7 +1311,7 @@
         "desc": "Tools for enforcing code style guidelines and formatting code consistently",
         "skills": [
           {
-            "skillId": 1004131,
+            "skillId": 1000121,
             "title": "ESLint",
             "desc": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.",
             "details": [
@@ -1415,7 +1323,7 @@
             ]
           },
           {
-            "skillId": 1004132,
+            "skillId": 1000122,
             "title": "Prettier",
             "desc": "An opinionated code formatter that supports many languages and integrates with most editors.",
             "details": [
@@ -1427,7 +1335,7 @@
             ]
           },
           {
-            "skillId": 1004133,
+            "skillId": 1000123,
             "title": "Stylelint",
             "desc": "A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.",
             "details": [
@@ -1436,18 +1344,6 @@
               "Custom Rules and Plugins",
               "IDE Integration",
               "Automated Fixing of Style Issues"
-            ]
-          },
-          {
-            "skillId": 1004134,
-            "title": "Best Practices",
-            "desc": "Following best practices in code linting and formatting.",
-            "details": [
-              "Consistent Code Style Enforcement",
-              "Integrating Linters in Continuous Integration",
-              "Balancing Rules with Developer Experience",
-              "Automating Code Formatting",
-              "Collaboration and Code Review Integration"
             ]
           }
         ]
@@ -1458,7 +1354,7 @@
         "desc": "Practices and tools for ensuring the quality and reliability of applications",
         "skills": [
           {
-            "skillId": 1004135,
+            "skillId": 1000124,
             "title": "Unit Testing",
             "desc": "Testing individual components or pieces of code in isolation.",
             "details": [
@@ -1469,7 +1365,7 @@
             ]
           },
           {
-            "skillId": 1004136,
+            "skillId": 1000125,
             "title": "Jest",
             "desc": "A delightful JavaScript testing framework with a focus on simplicity.",
             "details": [
@@ -1482,7 +1378,7 @@
             ]
           },
           {
-            "skillId": 1004137,
+            "skillId": 1000126,
             "title": "Integration Testing",
             "desc": "Testing the interaction between integrated units or components.",
             "details": [
@@ -1493,7 +1389,7 @@
             ]
           },
           {
-            "skillId": 1004138,
+            "skillId": 1000127,
             "title": "Vitest",
             "desc": "A Vite-native test framework that's fast and easy to use.",
             "details": [
@@ -1505,7 +1401,7 @@
             ]
           },
           {
-            "skillId": 1004139,
+            "skillId": 1000128,
             "title": "Functional Testing",
             "desc": "Testing the application against its functional requirements.",
             "details": [
@@ -1516,7 +1412,7 @@
             ]
           },
           {
-            "skillId": 1004140,
+            "skillId": 1000129,
             "title": "Performance Testing",
             "desc": "Ensuring the application performs well under expected workload.",
             "details": [
@@ -1527,7 +1423,7 @@
             ]
           },
           {
-            "skillId": 1004141,
+            "skillId": 1000130,
             "title": "Automated Testing",
             "desc": "Using automation tools to execute tests and compare actual outcomes with predicted outcomes.",
             "details": [
@@ -1535,17 +1431,6 @@
               "Test Automation Frameworks",
               "Automated Regression Testing",
               "Test Reporting and Analysis"
-            ]
-          },
-          {
-            "skillId": 1004142,
-            "title": "Best Practices",
-            "desc": "Following best practices in software testing.",
-            "details": [
-              "Test-Driven Development (TDD)",
-              "Behavior-Driven Development (BDD)",
-              "Code Coverage Analysis",
-              "Maintaining Test Suites"
             ]
           }
         ]
@@ -1556,7 +1441,7 @@
         "desc": "Methods and practices for securely verifying user identities",
         "skills": [
           {
-            "skillId": 1004143,
+            "skillId": 1000131,
             "title": "Basic Authentication",
             "desc": "A simple authentication scheme built into the HTTP protocol.",
             "details": [
@@ -1566,7 +1451,7 @@
             ]
           },
           {
-            "skillId": 1004144,
+            "skillId": 1000132,
             "title": "Token-Based Authentication",
             "desc": "Using tokens to manage user sessions and authenticate API requests.",
             "details": [
@@ -1577,7 +1462,7 @@
             ]
           },
           {
-            "skillId": 1004145,
+            "skillId": 1000133,
             "title": "OAuth and OpenID Connect",
             "desc": "Implementing third-party authentication providers.",
             "details": [
@@ -1588,7 +1473,7 @@
             ]
           },
           {
-            "skillId": 1004146,
+            "skillId": 1000134,
             "title": "Two-Factor Authentication (2FA)",
             "desc": "Adding an extra layer of security through a two-step verification process.",
             "details": [
@@ -1599,7 +1484,7 @@
             ]
           },
           {
-            "skillId": 1004147,
+            "skillId": 1000135,
             "title": "Single Sign-On (SSO)",
             "desc": "Enabling users to authenticate with multiple systems using one set of credentials.",
             "details": [
@@ -1610,7 +1495,7 @@
             ]
           },
           {
-            "skillId": 1004148,
+            "skillId": 1000136,
             "title": "Passwordless Authentication",
             "desc": "Implementing authentication mechanisms without requiring a password.",
             "details": [
@@ -1618,17 +1503,6 @@
               "Biometric Authentication",
               "WebAuthn and FIDO2",
               "Security and Usability Trade-offs"
-            ]
-          },
-          {
-            "skillId": 1004149,
-            "title": "Best Practices",
-            "desc": "Following best practices in implementing authentication.",
-            "details": [
-              "Securing User Data",
-              "Handling Authentication Errors",
-              "Regular Security Audits",
-              "Compliance with Data Protection Regulations"
             ]
           }
         ]
@@ -1639,7 +1513,7 @@
         "desc": "Essential security concepts and practices for safeguarding web applications",
         "skills": [
           {
-            "skillId": 1004150,
+            "skillId": 1000137,
             "title": "Cross-Origin Resource Sharing (CORS)",
             "desc": "Mechanism that allows or restricts requested resources on a web page from another domain.",
             "details": [
@@ -1650,7 +1524,7 @@
             ]
           },
           {
-            "skillId": 1004151,
+            "skillId": 1000138,
             "title": "HTTPS and SSL/TLS",
             "desc": "Protocols for secure communication over a computer network.",
             "details": [
@@ -1661,7 +1535,7 @@
             ]
           },
           {
-            "skillId": 1004152,
+            "skillId": 1000139,
             "title": "Content Security Policy (CSP)",
             "desc": "An added layer of security to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks.",
             "details": [
@@ -1672,7 +1546,7 @@
             ]
           },
           {
-            "skillId": 1004153,
+            "skillId": 1000140,
             "title": "OWASP Security Risks",
             "desc": "Understanding the top security risks identified by the Open Web Application Security Project (OWASP).",
             "details": [
@@ -1681,17 +1555,6 @@
               "Sensitive Data Exposure",
               "Cross-Site Scripting (XSS)",
               "Using Components with Known Vulnerabilities"
-            ]
-          },
-          {
-            "skillId": 1004154,
-            "title": "Best Practices",
-            "desc": "Following best practices in web security.",
-            "details": [
-              "Regular Security Audits",
-              "Keeping Dependencies Updated",
-              "Data Encryption and Sanitization",
-              "User Authentication and Authorization"
             ]
           }
         ]
@@ -1702,7 +1565,7 @@
         "desc": "A set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags",
         "skills": [
           {
-            "skillId": 1004155,
+            "skillId": 1000141,
             "title": "HTML Templates",
             "desc": "HTML template tags to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.",
             "details": [
@@ -1712,7 +1575,7 @@
             ]
           },
           {
-            "skillId": 1004156,
+            "skillId": 1000142,
             "title": "Custom Elements",
             "desc": "Creating new HTML tags or extending existing ones.",
             "details": [
@@ -1723,7 +1586,7 @@
             ]
           },
           {
-            "skillId": 1004157,
+            "skillId": 1000143,
             "title": "Shadow DOM",
             "desc": "Encapsulating style and markup in web components.",
             "details": [
@@ -1731,17 +1594,6 @@
               "Style Encapsulation",
               "DOM Isolation",
               "Slot Distribution"
-            ]
-          },
-          {
-            "skillId": 1004158,
-            "title": "Best Practices",
-            "desc": "Following best practices in developing web components.",
-            "details": [
-              "Ensuring Accessibility",
-              "Performance Considerations",
-              "Interoperability with Other Frameworks and Libraries",
-              "Testing Web Components"
             ]
           }
         ]
@@ -1752,7 +1604,7 @@
         "desc": "A typed superset of JavaScript that compiles to plain JavaScript",
         "skills": [
           {
-            "skillId": 1004159,
+            "skillId": 1000144,
             "title": "Basic Types",
             "desc": "Understanding and using basic types in TypeScript.",
             "details": [
@@ -1763,7 +1615,7 @@
             ]
           },
           {
-            "skillId": 1004160,
+            "skillId": 1000145,
             "title": "Interfaces and Classes",
             "desc": "Defining complex types with interfaces and classes.",
             "details": [
@@ -1774,7 +1626,7 @@
             ]
           },
           {
-            "skillId": 1004161,
+            "skillId": 1000146,
             "title": "Functions and Generics",
             "desc": "Creating reusable and flexible functions and classes.",
             "details": [
@@ -1785,7 +1637,7 @@
             ]
           },
           {
-            "skillId": 1004162,
+            "skillId": 1000147,
             "title": "Advanced Types",
             "desc": "Leveraging advanced type capabilities in TypeScript.",
             "details": [
@@ -1796,7 +1648,7 @@
             ]
           },
           {
-            "skillId": 1004163,
+            "skillId": 1000148,
             "title": "Modules and Namespaces",
             "desc": "Organizing code with modules and namespaces.",
             "details": [
@@ -1807,7 +1659,7 @@
             ]
           },
           {
-            "skillId": 1004164,
+            "skillId": 1000149,
             "title": "Decorators",
             "desc": "Using decorators to annotate and modify classes and properties at design time.",
             "details": [
@@ -1818,7 +1670,7 @@
             ]
           },
           {
-            "skillId": 1004165,
+            "skillId": 1000150,
             "title": "TypeScript Configuration",
             "desc": "Configuring TypeScript compiler options for different projects.",
             "details": [
@@ -1826,17 +1678,6 @@
               "Compiler Options",
               "Build Targets and Environments",
               "Integrating with Build Tools"
-            ]
-          },
-          {
-            "skillId": 1004166,
-            "title": "Best Practices",
-            "desc": "Following best practices in TypeScript development.",
-            "details": [
-              "Type Safety and Avoiding 'any'",
-              "Code Linting with TSLint/ESLint",
-              "Effective Type Inference",
-              "Refactoring and Code Maintenance"
             ]
           }
         ]
@@ -1847,7 +1688,7 @@
         "desc": "Techniques and practices for rendering web pages on the server before sending them to the client",
         "skills": [
           {
-            "skillId": 1004167,
+            "skillId": 1000151,
             "title": "SSR Basics",
             "desc": "Understanding the fundamentals of server-side rendering.",
             "details": [
@@ -1857,7 +1698,7 @@
             ]
           },
           {
-            "skillId": 1004168,
+            "skillId": 1000152,
             "title": "SSR Frameworks",
             "desc": "Using popular frameworks and libraries for SSR.",
             "details": [
@@ -1868,7 +1709,7 @@
             ]
           },
           {
-            "skillId": 1004169,
+            "skillId": 1000153,
             "title": "SEO and Performance",
             "desc": "Optimizing server-rendered pages for search engines and performance.",
             "details": [
@@ -1879,24 +1720,13 @@
             ]
           },
           {
-            "skillId": 1004170,
+            "skillId": 1000154,
             "title": "State Management and Hydration",
             "desc": "Managing application state in SSR and client-side hydration.",
             "details": [
               "State Synchronization Between Server and Client",
               "Client-Side Hydration",
               "Handling Authentication and Session Management"
-            ]
-          },
-          {
-            "skillId": 1004171,
-            "title": "Best Practices",
-            "desc": "Following best practices in SSR development.",
-            "details": [
-              "Handling Asynchronous Data",
-              "Optimizing Server Load and Response Time",
-              "Error Handling and Logging",
-              "Integrating with APIs and Microservices"
             ]
           }
         ]
@@ -1907,7 +1737,7 @@
         "desc": "A query language for your API, and a server-side runtime for executing queries",
         "skills": [
           {
-            "skillId": 1004172,
+            "skillId": 1000155,
             "title": "GraphQL Basics",
             "desc": "Understanding the core concepts of GraphQL.",
             "details": [
@@ -1918,7 +1748,7 @@
             ]
           },
           {
-            "skillId": 1004173,
+            "skillId": 1000156,
             "title": "Apollo Client",
             "desc": "A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.",
             "details": [
@@ -1929,7 +1759,7 @@
             ]
           },
           {
-            "skillId": 1004174,
+            "skillId": 1000157,
             "title": "Relay Modern",
             "desc": "A JavaScript framework for building data-driven React applications with GraphQL.",
             "details": [
@@ -1940,7 +1770,7 @@
             ]
           },
           {
-            "skillId": 1004175,
+            "skillId": 1000158,
             "title": "Server-Side Implementation",
             "desc": "Implementing a GraphQL server.",
             "details": [
@@ -1951,7 +1781,7 @@
             ]
           },
           {
-            "skillId": 1004176,
+            "skillId": 1000159,
             "title": "Performance Optimization",
             "desc": "Optimizing GraphQL queries and server performance.",
             "details": [
@@ -1959,17 +1789,6 @@
               "Pagination and Data Loading",
               "Caching Strategies",
               "Monitoring and Performance Metrics"
-            ]
-          },
-          {
-            "skillId": 1004177,
-            "title": "Best Practices",
-            "desc": "Following best practices in GraphQL development.",
-            "details": [
-              "Schema Design Principles",
-              "Security Considerations",
-              "Versioning and API Evolution",
-              "Documentation and Tooling"
             ]
           }
         ]
@@ -1980,7 +1799,7 @@
         "desc": "Tools for building static websites quickly and efficiently",
         "skills": [
           {
-            "skillId": 1004178,
+            "skillId": 1000160,
             "title": "Jekyll",
             "desc": "A simple, blog-aware, static site generator for personal, project, or organization sites.",
             "details": [
@@ -1991,7 +1810,7 @@
             ]
           },
           {
-            "skillId": 1004179,
+            "skillId": 1000161,
             "title": "Gatsby",
             "desc": "A React-based, GraphQL powered, static site generator.",
             "details": [
@@ -2002,7 +1821,7 @@
             ]
           },
           {
-            "skillId": 1004180,
+            "skillId": 1000162,
             "title": "Hugo",
             "desc": "One of the most popular open-source static site generators with its amazing speed and flexibility.",
             "details": [
@@ -2013,7 +1832,7 @@
             ]
           },
           {
-            "skillId": 1004181,
+            "skillId": 1000163,
             "title": "Next.js",
             "desc": "A React framework that enables functionality such as server-side rendering and generating static websites.",
             "details": [
@@ -2024,7 +1843,7 @@
             ]
           },
           {
-            "skillId": 1004182,
+            "skillId": 1000164,
             "title": "Nuxt.js",
             "desc": "An intuitive Vue framework for building server-rendered applications, static generated sites or single page applications.",
             "details": [
@@ -2032,17 +1851,6 @@
               "Automatic Code Splitting",
               "SEO Optimization",
               "Integrating with Headless CMS"
-            ]
-          },
-          {
-            "skillId": 1004183,
-            "title": "Best Practices",
-            "desc": "Following best practices in static site generation.",
-            "details": [
-              "SEO Best Practices",
-              "Performance Optimization",
-              "Content Strategy",
-              "Automating Builds and Deployment"
             ]
           }
         ]
@@ -2053,7 +1861,7 @@
         "desc": "Building web applications with native app-like user experiences",
         "skills": [
           {
-            "skillId": 1004184,
+            "skillId": 1000165,
             "title": "Service Workers",
             "desc": "Scripts that run in the background and assist in offline support, network resilience, and background sync.",
             "details": [
@@ -2064,7 +1872,7 @@
             ]
           },
           {
-            "skillId": 1004185,
+            "skillId": 1000166,
             "title": "Web App Manifest",
             "desc": "A JSON file that allows you to control how your app appears to the user and ensures it can be installed on the home screen.",
             "details": [
@@ -2075,7 +1883,7 @@
             ]
           },
           {
-            "skillId": 1004186,
+            "skillId": 1000167,
             "title": "Responsive Design",
             "desc": "Creating web applications that look and function well on any device.",
             "details": [
@@ -2086,7 +1894,7 @@
             ]
           },
           {
-            "skillId": 1004187,
+            "skillId": 1000168,
             "title": "Performance Optimization",
             "desc": "Enhancing the performance of web applications for a smoother and faster user experience.",
             "details": [
@@ -2097,7 +1905,7 @@
             ]
           },
           {
-            "skillId": 1004188,
+            "skillId": 1000169,
             "title": "Offline Support",
             "desc": "Ensuring the app can function offline or on low-quality networks.",
             "details": [
@@ -2108,7 +1916,7 @@
             ]
           },
           {
-            "skillId": 1004189,
+            "skillId": 1000170,
             "title": "Security",
             "desc": "Implementing security best practices in PWA development.",
             "details": [
@@ -2116,17 +1924,6 @@
               "Cross-Site Scripting (XSS) Prevention",
               "Content Security Policy (CSP)",
               "Secure Data Transmission and Storage"
-            ]
-          },
-          {
-            "skillId": 1004190,
-            "title": "Best Practices",
-            "desc": "Following best practices in PWA development.",
-            "details": [
-              "User Engagement and Retention",
-              "Accessibility Standards",
-              "Cross-Browser Compatibility",
-              "Continuous Testing and Feedback"
             ]
           }
         ]
@@ -2137,7 +1934,7 @@
         "desc": "Developing applications for mobile devices across various platforms",
         "skills": [
           {
-            "skillId": 1004191,
+            "skillId": 1000171,
             "title": "Native Development",
             "desc": "Building applications specifically for mobile operating systems.",
             "details": [
@@ -2148,7 +1945,7 @@
             ]
           },
           {
-            "skillId": 1004192,
+            "skillId": 1000172,
             "title": "Cross-Platform Development",
             "desc": "Creating applications that run across multiple mobile platforms.",
             "details": [
@@ -2159,7 +1956,7 @@
             ]
           },
           {
-            "skillId": 1004193,
+            "skillId": 1000173,
             "title": "Mobile App Testing",
             "desc": "Ensuring the quality and performance of mobile applications.",
             "details": [
@@ -2170,7 +1967,7 @@
             ]
           },
           {
-            "skillId": 1004194,
+            "skillId": 1000174,
             "title": "App Deployment and Distribution",
             "desc": "Publishing applications to app stores and managing their distribution.",
             "details": [
@@ -2181,7 +1978,7 @@
             ]
           },
           {
-            "skillId": 1004195,
+            "skillId": 1000175,
             "title": "Mobile Backend Integration",
             "desc": "Connecting mobile applications with backend services.",
             "details": [
@@ -2192,7 +1989,7 @@
             ]
           },
           {
-            "skillId": 1004196,
+            "skillId": 1000176,
             "title": "Performance Optimization",
             "desc": "Optimizing mobile applications for speed and efficiency.",
             "details": [
@@ -2203,7 +2000,7 @@
             ]
           },
           {
-            "skillId": 1004197,
+            "skillId": 1000177,
             "title": "Security",
             "desc": "Implementing security measures in mobile applications.",
             "details": [
@@ -2211,17 +2008,6 @@
               "Secure Storage",
               "SSL Pinning",
               "Handling Sensitive Data"
-            ]
-          },
-          {
-            "skillId": 1004198,
-            "title": "Best Practices",
-            "desc": "Following best practices in mobile application development.",
-            "details": [
-              "Adhering to Platform Guidelines",
-              "Responsive Design and Accessibility",
-              "Continuous Integration and Delivery (CI/CD)",
-              "Monitoring and Analytics"
             ]
           }
         ]
@@ -2232,7 +2018,7 @@
         "desc": "Building cross-platform desktop applications using JavaScript",
         "skills": [
           {
-            "skillId": 1004199,
+            "skillId": 1000178,
             "title": "Electron",
             "desc": "A framework for creating native applications with web technologies like JavaScript, HTML, and CSS.",
             "details": [
@@ -2244,7 +2030,7 @@
             ]
           },
           {
-            "skillId": 1004200,
+            "skillId": 1000179,
             "title": "NW.js",
             "desc": "A framework for building desktop applications using HTML, CSS, and JavaScript.",
             "details": [
@@ -2256,7 +2042,7 @@
             ]
           },
           {
-            "skillId": 1004201,
+            "skillId": 1000180,
             "title": "Application Security",
             "desc": "Ensuring security in desktop applications built with JavaScript.",
             "details": [
@@ -2267,7 +2053,7 @@
             ]
           },
           {
-            "skillId": 1004202,
+            "skillId": 1000181,
             "title": "User Interface Design",
             "desc": "Designing user interfaces for desktop applications.",
             "details": [
@@ -2278,7 +2064,7 @@
             ]
           },
           {
-            "skillId": 1004203,
+            "skillId": 1000182,
             "title": "Interoperability",
             "desc": "Ensuring interoperability with different operating systems and environments.",
             "details": [
@@ -2286,17 +2072,6 @@
               "File System Access",
               "External Process Interaction",
               "Hardware Access"
-            ]
-          },
-          {
-            "skillId": 1004204,
-            "title": "Best Practices",
-            "desc": "Following best practices in desktop application development.",
-            "details": [
-              "Code Organization and Modularization",
-              "Application Performance Monitoring",
-              "Automated Testing and Continuous Integration",
-              "User Experience and Usability Testing"
             ]
           }
         ]
@@ -2307,7 +2082,7 @@
         "desc": "Understanding principles and practices for designing user interfaces and enhancing user experience",
         "skills": [
           {
-            "skillId": 1004205,
+            "skillId": 1000183,
             "title": "Principles of Design",
             "desc": "Fundamental concepts of visual design",
             "details": [
@@ -2318,7 +2093,7 @@
             ]
           },
           {
-            "skillId": 1004206,
+            "skillId": 1000184,
             "title": "User-Centered Design",
             "desc": "Approach focusing on user needs and requirements",
             "details": [
@@ -2329,7 +2104,7 @@
             ]
           },
           {
-            "skillId": 1004207,
+            "skillId": 1000185,
             "title": "Interaction Design",
             "desc": "Designing interactive digital products and systems",
             "details": [
@@ -2340,7 +2115,7 @@
             ]
           },
           {
-            "skillId": 1004208,
+            "skillId": 1000186,
             "title": "Responsive and Adaptive Design",
             "desc": "Creating designs that adapt to different screen sizes and devices",
             "details": [
@@ -2351,7 +2126,7 @@
             ]
           },
           {
-            "skillId": 1004209,
+            "skillId": 1000187,
             "title": "Wireframing and Prototyping",
             "desc": "Developing the blueprint and interactive prototype of a product",
             "details": [
@@ -2362,7 +2137,7 @@
             ]
           },
           {
-            "skillId": 1004210,
+            "skillId": 1000188,
             "title": "User Research and Personas",
             "desc": "Understanding the target audience and their needs",
             "details": [
@@ -2373,7 +2148,7 @@
             ]
           },
           {
-            "skillId": 1004211,
+            "skillId": 1000189,
             "title": "Usability Testing",
             "desc": "Evaluating a product by testing it with users",
             "details": [
@@ -2384,7 +2159,7 @@
             ]
           },
           {
-            "skillId": 1004212,
+            "skillId": 1000190,
             "title": "Information Architecture",
             "desc": "Structuring and organizing information in a product",
             "details": [
@@ -2395,7 +2170,7 @@
             ]
           },
           {
-            "skillId": 1004213,
+            "skillId": 1000191,
             "title": "Visual Design Elements and Principles",
             "desc": "Crafting the aesthetic aspects of a product",
             "details": [
@@ -2406,7 +2181,7 @@
             ]
           },
           {
-            "skillId": 1004214,
+            "skillId": 1000192,
             "title": "Accessibility Standards",
             "desc": "Ensuring products are accessible to all users, including those with disabilities",
             "details": [
@@ -2417,7 +2192,7 @@
             ]
           },
           {
-            "skillId": 1004215,
+            "skillId": 1000193,
             "title": "User Interface Patterns",
             "desc": "Common solutions to design problems",
             "details": [
@@ -2428,13 +2203,13 @@
             ]
           },
           {
-            "skillId": 1004216,
+            "skillId": 1000194,
             "title": "Design Tools and Software",
             "desc": "Tools used for creating UI/UX designs",
             "details": ["Sketch", "Adobe XD", "Figma", "InVision"]
           },
           {
-            "skillId": 1004217,
+            "skillId": 1000195,
             "title": "Evaluating User Feedback",
             "desc": "Analyzing feedback to improve the product",
             "details": [
@@ -2445,7 +2220,7 @@
             ]
           },
           {
-            "skillId": 1004218,
+            "skillId": 1000196,
             "title": "Collaboration with Developers and Stakeholders",
             "desc": "Working effectively within a team and with clients",
             "details": [

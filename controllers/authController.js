@@ -48,7 +48,7 @@ export const register = async (req, res) => {
       message: 'Регистрация прошла успешно',
     });
   } catch (error) {
-    res.status(500).json({ message: 'Не удалось зарегистрироваться' });
+    res.status(500).json({ message: 'Не удалось зарегистрироваться, попробуйте заново' });
   }
 };
 

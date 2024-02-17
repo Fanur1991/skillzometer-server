@@ -17,6 +17,7 @@ export const PORT = process.env.PORT || 3001;
 export const DB_USER = process.env.DB_USER;
 export const DB_PASSWORD = process.env.DB_PASSWORD;
 export const DB_NAME = process.env.DB_NAME;
+export const MONGODB_URI = process.env.DATABASE_URL;
 
 // Middleware
 app.use(cors());
@@ -34,13 +35,10 @@ app.use('/api/upload', uploadDataRoute);
 
 async function start() {
   try {
-    await mongoose.connect(
-      // `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.yqcao79.mongodb.net/${DB_NAME}`
-        `mongodb://${DB_USER}:${DB_PASSWORD}@mongo:27017/${DB_NAME}?authSource=admin`
-    );
+    await mongoose.connect(MONGODB_URI);
     app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
   } catch (error) {
-    console.log(error);
+    console.error('An error occurred:', error.message);
   }
 }
 
