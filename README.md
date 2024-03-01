@@ -20,9 +20,6 @@ Skillzometer is a platform designed for developers to easily evaluate their tech
 - **express-validator**: An express.js middleware for input validation and sanitization.
 - **jsonwebtoken**: Library for generating and verifying JSON Web Tokens (JWT).
 - **multer**: Middleware for handling multipart/form-data, used for uploading files.
-
-### Development Tools
-
 - **nodemon**: Utility that monitors for changes in files and automatically restarts the server. ![nodemon](https://img.shields.io/badge/-nodemon-blue)
 - **concurrently**: Utility to run multiple commands concurrently. ![concurrently](https://img.shields.io/badge/-concurrently-lightgrey)
 
