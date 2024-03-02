@@ -6,6 +6,7 @@ Skillzometer is a platform designed for developers to easily evaluate their tech
 
 ### Backend Technologies
 
+- **JavaScript**: Programming language for backend development. ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 - **Node.js**: JavaScript runtime for server-side development. ![Node.js](https://img.shields.io/badge/-Node.js-green)
 - **Express**: Fast, unopinionated, minimalist web framework for Node.js. ![Express](https://img.shields.io/badge/-Express-lightgrey)
 - **MongoDB**: NoSQL database for storing application data. ![MongoDB](https://img.shields.io/badge/-MongoDB-brightgreen)
